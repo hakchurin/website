@@ -219,3 +219,21 @@ p.mgd-degree, .school-name-1, .school-name-2, p.tiy-degree  {
     font-family: 'avenir', sans-serif;
     margin-top: 50px;
 }
+
+
+
+/*slides*/
+
+.mySlides {
+    display:none
+}
+
+.left, .right, .badge {
+    cursor:pointer
+}
+
+/*.badge {
+    height:13px;
+    width:13px;
+    padding:0
+}*/

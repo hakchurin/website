@@ -30,3 +30,7 @@ window.onclick = function(event) {
     }
   }
 };
+
+
+
+// slide2
