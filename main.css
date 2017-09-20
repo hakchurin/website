@@ -175,6 +175,12 @@ p.about-hm {
     margin-bottom: 50px;
 }
 
+/*resume link*/
+
+.info-link {
+    color: #525066;
+}
+
 /*work experience*/
 
 p.work-name, p.work-position {
@@ -186,6 +192,7 @@ p.work-name, p.work-position {
 
 .education-tagline, .experience-tagline {
     font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
 }
 
 .date {
@@ -250,11 +257,22 @@ p.mgd-degree, .school-name-1, .school-name-2, p.tiy-degree  {
 /*slides*/
 
 
+.project-link {
+    color: #525066;
+    text-decoration: underline;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.dots {
+    margin-top: 30px
+}
 
 .slideshow-container {
  max-width: 1000px;
  position: relative;
  margin: auto;
+ margin-top: 100px;
 }
 
 /* Next & previous buttons */
@@ -280,19 +298,28 @@ p.mgd-degree, .school-name-1, .school-name-2, p.tiy-degree  {
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
- background-color: rgba(0,0,0,0.8);
+ background-color: #fafafa;
+ color: #525066;
+
 }
 
 /* Caption text */
-.text {
- color: pink;
- font-size: 15px;
- padding: 8px 12px;
- /*position: absolute;*/
- bottom:20px;
- width: 100%;
- text-align: center;
+
+.text-pocket {
+    text-align: center;
+    margin-top: 50px;
 }
+
+.text {
+    color: black;
+    font-size: 18px;
+    bottom: 20px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-family: 'Avenir', sans-serif;
+}
+
 .mySlides {
  display:none;
 }
@@ -365,9 +392,9 @@ p.mgd-degree, .school-name-1, .school-name-2, p.tiy-degree  {
     -webkit-transition: -webkit-transform .2s;
     transition: transform .2s;
     width: 1442px;
-    height: 425px;
+    height: 545px;
     position: relative;
-    top: 100px;
+    top: 20px;
     left: -55px;
 }
 
