@@ -1,5 +1,9 @@
 /*NAV INFO*/
 
+/*body {
+    background-color:#AAAAA9;
+}*/
+
 nav {
     position: fixed;
     right: 90px;
@@ -155,6 +159,9 @@ nav a {
     text-transform: uppercase;
 }
 
+
+/*WORK STUFF*/
+
 p.about-hm {
     width: 80%;
     font-family: 'avenir', sans-serif;
@@ -162,14 +169,19 @@ p.about-hm {
 }
 
 
-/*resume link*/
-
+/*RESUME LINK FOR EXPERIENCE LOCATION*/
 .info-link {
     color: #525066;
 }
 
+.project-link {
+    color: #525066;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+}
 
-/*work experience*/
+
+/*WORK EXPERIENCE*/
 
 p.work-name, p.work-position {
     font-family: 'avenir', sans-serif;
@@ -177,7 +189,7 @@ p.work-name, p.work-position {
 }
 
 
-/*education*/
+/*EDUCATION*/
 
 .education-tagline, .experience-tagline {
     font-family: 'Open Sans', sans-serif;
@@ -201,13 +213,13 @@ ul.skills {
     display: inline-flex;
     font-family: 'avenir', sans-serif;
     justify-content: space-between;
-    width: 490px;
     list-style-type: none;
+    width: 490px;
 }
 
 .skill li {
-    width: 85px;
     text-align: center;
+    width: 85px;
 }
 
 span.skill {
@@ -225,12 +237,12 @@ span.skill {
 }
 
 p.mgd-degree, .school-name-1, .school-name-2, p.tiy-degree {
-    margin: 0 auto;
     font-family: 'avenir', sans-serif;
+    margin: 0 auto;
 }
 
 
-/*iron yard resue part*/
+/*IRON YARD RESUME PART*/
 
 .school-name-2 {
     font-family: 'avenir', sans-serif;
@@ -238,66 +250,67 @@ p.mgd-degree, .school-name-1, .school-name-2, p.tiy-degree {
 }
 
 
-/*slides*/
 
-.project-link {
-    color: #525066;
-    text-decoration: underline;
-    font-family: 'Montserrat', sans-serif;
+
+
+/*PICTURE SLIDES*/
+.slideshow-container {
+    margin: auto;
+    margin-top: 100px;
+    max-width: 1000px;
+    position: relative;
 }
+
 
 .dots {
     margin-top: 30px
 }
 
-.slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-    margin-top: 100px;
-}
 
 
-/* Next & previous buttons */
+/* NEXT & PREVIOUS BUTTONS */
 
 .prev, .next {
+    border-radius: 0 3px 3px 0;
+    color: black;
     cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
     font-weight: bold;
     font-size: 18px;
+    margin-top: -100px;
+    padding: 16px;
+    position: absolute;
     transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
+    top: 50%;
+    width: auto;
 }
 
 
-/* Position the "next button" to the right */
+/* POSITION THE "NEXT BUTTON" TO THE RIGHT */
 
 .next {
-    right: 0;
     border-radius: 3px 0 0 3px;
+    right: 0;
+
 }
 
 
 /* On hover, add a black background color with a little bit see-through */
 
 .prev:hover, .next:hover {
-    background-color: #fafafa;
-    color: #525066;
+    /*background-color: #fafafa;
+    color: #525066;*/
+color: white;
+    background-color: #525066;
 }
 
 
-/* Caption text */
+/* CAPTION TEXT */
 
 .text-pocket {
-    text-align: center;
-    margin-top: 50px;
     font-size: 18px;
     font-family: 'Avenir', sans-serif;
+    margin-top: 50px;
+    text-align: center;
 }
 
 .text {
