@@ -63,6 +63,17 @@ nav a {
 }
 
 
+@media  (max-width: 400px) {
+    nav a  {
+        position: relative;
+        left: 80px;
+        top: 10px;
+     }
+}
+
+
+
+
 /*HEADER NAME*/
 
 .header-name {
@@ -117,6 +128,14 @@ nav a {
     width: 671px;
 }
 
+@media  (max-width: 400px) {
+    .code  {
+        width: 375px;
+        margin: 2px -1px -1px 3px;
+        height: 607px;
+         }
+
+}
 
 .terminal {
     background: #383737;
@@ -125,6 +144,17 @@ nav a {
     padding: 22px 0px 0px 32px;
     width: 670px;
 }
+
+
+@media  (max-width: 400px) {
+    .terminal  {
+            width: 373px;
+            margin: 2px 2px 2px 1px;
+            height: 580px;
+            padding: 21px 0px 0px 19px;
+     }
+}
+
 
 .terminal-answers {
     color: #ccc;
@@ -153,11 +183,25 @@ nav a {
     width: 700px;
 }
 
+@media  (max-width: 400px) {
+    .resume  {
+            margin-top:0px;
+     }
+}
+
 .resume-header {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     text-transform: uppercase;
 }
+
+@media  (max-width: 400px) {
+    .resume-header  {
+            text-align: left;
+            margin: 2px 2px 2px 100px;
+     }
+}
+
 
 
 /*WORK STUFF*/
@@ -166,6 +210,12 @@ p.about-hm {
     width: 80%;
     font-family: 'avenir', sans-serif;
     margin-bottom: 50px;
+}
+
+@media  (max-width: 400px) {
+    p.about-hm  {
+        width: 55%;
+     }
 }
 
 
@@ -217,6 +267,18 @@ ul.skills {
     width: 490px;
 }
 
+@media  (max-width: 400px) {
+    ul.skills  {
+        position: relative;
+        right: 36px;
+        display: table;
+     }
+}
+
+
+
+
+
 .skill li {
     text-align: center;
     width: 85px;
@@ -235,6 +297,17 @@ span.skill {
     text-transform: uppercase;
     /*width: auto;*/
 }
+
+@media  (max-width: 400px) {
+    span.skill  {
+        padding: 7px 0px;
+        font-size: 8px;
+
+     }
+}
+
+
+
 
 p.mgd-degree, .school-name-1, .school-name-2, p.tiy-degree {
     font-family: 'avenir', sans-serif;
@@ -283,6 +356,16 @@ p.mgd-degree, .school-name-1, .school-name-2, p.tiy-degree {
     top: 50%;
     width: auto;
 }
+
+@media  (max-width: 400px) {
+    .prev, .next  {
+        margin-top: -150px;
+
+     }
+}
+
+
+
 
 
 /* POSITION THE "NEXT BUTTON" TO THE RIGHT */
@@ -411,6 +494,12 @@ color: white;
     position: relative;
     top: -38px;
     left: -55px;
+}
+
+@media  (max-width: 400px) {
+    .box  {
+        background-image: none;
+     }
 }
 
 .box:hover {
