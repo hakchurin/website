@@ -366,28 +366,6 @@ p.mgd-degree, .school-name-1, .school-name-2, p.tiy-degree {
 
 /* NEXT & PREVIOUS BUTTONS */
 
-.prev{
-    border-radius: 0 3px 3px 0;
-    color: #DEDEDE;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 3.5rem;;
-    /*margin-top: -100px;*/
-    padding: 16px;
-    position: absolute;
-    top: 33%;
-    width: auto;
-
-
-}
-
-@media  (max-width: 400px) {
-    .prev, .next  {
-        margin-top: -150px;
-
-     }
-}
-
 
 
 
@@ -403,33 +381,53 @@ p.mgd-degree, .school-name-1, .school-name-2, p.tiy-degree {
     /*margin-top: -100px;*/
     padding: 16px;
     position: absolute;
-    top: 33%;
+    top: 63px;
     width: auto;
-    left: 940px;
+    left: 350px;
 }
 
 .next:hover {
     /*background-color: #fafafa;
-    color: #525066;*/
     color: white;
     /*background-color: #525066;*/
     background-color: rgba(82,80,102,0.8);
-    height: 74.2vh;
+    height: 29.5vh;
     top: 1px;
     right: 0px;
-    padding: 258px 2px 2px 16px;
+    padding: 78px 2px 2px 16px;
 }
 
 
 /* On hover, add a black background color with a little bit see-through */
 
+
+.prev{
+    border-radius: 0 3px 3px 0;
+    color: #DEDEDE;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 3.5rem;;
+    /*margin-top: -100px;*/
+    padding: 16px;
+    position: absolute;
+    top: 45%;
+    width: auto;
+}
+
+@media  (max-width: 400px) {
+    .prev {
+        top: 63px;
+        left: -7px;
+
+
+     }
+}
+
+
 .prev:hover {
-    /*background-color: #fafafa;
-    color: #525066;*/
     color: white;
     /*background-color: #525066;*/
     background-color: rgba(82,80,102,0.8);
-
     height: 74.25vh;
     top: 0px;
     left: 0px;
@@ -440,11 +438,11 @@ p.mgd-degree, .school-name-1, .school-name-2, p.tiy-degree {
 @media  (max-width: 400px) {
     .prev:hover  {
         background-color: rgba(82,80,102,0.8);
-        height: 28.5vh;
-        top: 150px;
+        height: 29.7vh;
+        top: 0px;
         left: 0px;
         width: 44px;
-        padding: 74px 2px 2px 9px;
+        padding: 80px 2px 2px 9px;
 
      }
 }
