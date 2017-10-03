@@ -370,9 +370,16 @@ h1.project-title {
 /*PICTURE SLIDE BACKGROUND COLOR STYLE*/
 
 
+
+img#container-img, .container-img {
+    width: 75%;
+    margin: 2px 2px 2px 140px;
+
+}
+
 .container-1 {
     background-color: #fafafa;
-    height: 1120px;
+    height: 970px;
     margin-top: 20px;
 }
 
@@ -386,7 +393,7 @@ h1.project-title {
 
 .container-2 {
     background-color: #fafafa;
-    height: 900px;
+    height: 750px;
 }
 
 @media  (max-width: 400px) {
@@ -400,7 +407,7 @@ h1.project-title {
 
 .container-3  {
     background-color: #fafafa;
-    height: 820px;
+    height: 730px;
 }
 
 @media  (max-width: 400px) {
@@ -413,7 +420,7 @@ h1.project-title {
 
 .container-4 {
     background-color: #fafafa;
-    height: 820px;
+    height: 750px;
     margin-top: 20px;
 }
 
@@ -429,8 +436,8 @@ h1.project-title {
 
 /*PICTURE SLIDES*/
 .slideshow-container {
-    margin: auto;
-    max-width: 1000px;
+margin: 0 auto;
+   max-width: 1000px;
     position: relative;
     top: 60px;
 }
@@ -462,10 +469,11 @@ h1.project-title {
 
 .text {
     color: black;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     bottom: 20px;
-    width: 100%;
+    width: 77%;
     margin: 0 auto;
+    margin-left: 138px;
     margin-top: 50px;
     font-family: 'Avenir', sans-serif;
 }
