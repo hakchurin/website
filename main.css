@@ -119,7 +119,9 @@ nav a {
 /*DOODLE BACKGROUND COLOR AND INFO*/
 
 .art {
-    background-color: #525066;
+    /*background-color: #525066;*/
+    background-color: #4C5364;
+
     height: 85vh;
 }
 
@@ -129,6 +131,8 @@ nav a {
     }
 }
 
+
+/*#4C5364*/
 
 
 
@@ -202,9 +206,6 @@ nav a {
 /*//RESUME*/
 
 
-/*.resume-color {
-    background-color: #AAAAA9;
-}*/
 
 
 .resume {
@@ -223,6 +224,7 @@ nav a {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     text-transform: uppercase;
+    font-size: 2rem;
 }
 
 @media  (max-width: 400px) {
@@ -353,10 +355,15 @@ p.mgd-degree, .school-name-1, .school-name-2, p.tiy-degree {
 }
 
 
-.vh-img {
-    /*background-color: pink;*/
-}
+/*WORK AND FUN TITLE FOR THE PROJECTS*/
 
+h1.project-title {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    top: 20px;
+    position: relative;
+    font-size: 2rem;
+}
 
 
 
@@ -535,6 +542,10 @@ p.mgd-degree, .school-name-1, .school-name-2, p.tiy-degree {
 }
 
 
+
+
+
+
 /*twist*/
 
 .hello {
@@ -545,17 +556,20 @@ p.mgd-degree, .school-name-1, .school-name-2, p.tiy-degree {
     text-transform: uppercase;
     font-size: 1.7rem;
     color: white;
+    letter-spacing: .5px;
 }
 
 @media  (max-width: 400px) {
     .hello  {
     top: 180px;
+    letter-spacing: .5px;
+
    }
 }
 
 
 .box {
-    background-image: url(doodle-2.png);
+    background-image: url(doodle-1.png);
     margin: 50px;
     -webkit-transition: -webkit-transform .2s;
     transition: transform .2s;
