@@ -7,6 +7,10 @@
     <title> haleys portfolio </title>
     <link href="http://www.w3schools.com/lib/w3.css" rel="stylesheet" />
 
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
+
+
+
     <link href="main.css" rel="stylesheet" media="screen" />
 </head>
 
@@ -16,230 +20,25 @@
 
 
 
+    <div class="page-1" id="page-1">
 
 
 
+        <section class="top">
 
-    <section class="top">
-
-        <nav>
-            <ul class="cf">
-                <li><a class="dropdown" href="#">☰</a>
-                    <ul>
-                        <li><a href="#about" class="nav-title">About</a></li>
-                        <li><a href="#resume" class="nav-title">Resume</a></li>
-                        <li><a href="#work" class="nav-title">Work</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
-        <h1 class="header-name"> Haley Akchurin </h1>
-    </section>
-
-
-
-
-    <div class="art">
-        <h1 class="hello">  I'm a Designer and Developer.</h1> <br>
-        <div class="box">
-        </div>
-    </div>
-
-
-
-
-
-
-
-
-    <div class="work-color">
-        <div class="code" id="about">
-            <div class="terminal">
-                <p class="haley-info"> > haley.origin </p>
-                <dd><span class="terminal-answers">  => "San Carlos, CA" </span></dd>
-
-                <p> > haley.education </p>
-                <dd><span class="terminal-answers"> => "SAE Ex'pression College" </span> <br></dd>
-                <dd><span class="terminal-answers"> => "The Iron Yard" </span></dd>
-
-                <p> > haley.major </p>
-                <dd><span class="terminal-answers"> => "BAS Motion Graphic Design" </span> <br></dd>
-                <dd><span class="terminal-answers"> => "Certificate Front-End Engineering" </span></dd>
-
-
-                <p> > haley.interests </p>
-                <dd><span class="terminal-answers"> => [ "Art Museums", "Gym", "Podcasts" "Reality TV" ] </span></dd>
-
-                <p> haley.resume </p>
-                <dd><span class="terminal-answers">=></span>
-                    <a target="_blank" href="resume_haleyakchurin.pdf" class="terminal-link"> "haleyakchurin.pdf" </a></dd>
-
-                <p> > haley.thoughts </p>
-                <dd><span class="terminal-answers">=></span> [
-                    <a target="_blank" href="https://www.instagram.com/haleyakchurin/?hl=en" class="terminal-link">"@haleyakchurin"</a>,
-                    <a target="_blank" href="https://vimeo.com/haleya" class="terminal-link">"vimeo.com/haleya"</a>,              <a target="_blank" href="https://github.com/hakchurin" class="terminal-link">"github.com/hakchurin"</a> ]
-
-
-                </dd>
-
-
-
-
-                <p> > haley.email </p>
-                <dd><span class="terminal-answers">=></span>
-                    <a target="_blank" href="mailto:hdakchurin@gmail.com" class="terminal-link"> "hdakchurin@gmail.com" </a></dd>
-            </div>
-        </div>
-
-
-    </div>
-
-
-    <!-- this is where resume starts -->
-
-    <div class="resume-color">
-        <div class="resume" id="resume">
-            <div class="inner">
-                <h1 class="resume-header">Résumé </h1>
-            </div>
-
-            <div class="experience">
-                <p class="experience-tagline"> Experience</p>
-                <p class="work-name"><a href="www.harrismediallc.com" class="info-link"> Harris Media LLC </a></p>
-
-                <span class="date">  Jan 2016 - <br> July 2016 <br>
-                        <span class="mgd-location"> Austin, TX </span>
-                </span>
-
-                <p class="work-position"> Front-End Engineer </p>
-                <p class="about-hm">Harris Media is a digital marketing firm located in Austin, TX, working at the top tier of business, non-profits and politics. Our team oversees multi-million dollar digital advertising budgets and will work with clients to deliver the
-                    most targeted, innovative, and creative online strategy that fits with their goals.
-                </p>
-
-                <div class="hm-skill">
-                    <ul class="skills">
-                        <span class="skill"><li>html/css </li></span>
-                        <span class="skill"><li> JavaScript </li></span>
-                        <span class="skill"><li>WordPress </li></span>
-                        <span class="skill"><li> NationBuilder </li></span>
-                        <span class="skill"><li> Photoshop</li></span>
-                    </ul>
-                </div>
-            </div>
-
-
-
-            <!-- EDUCATION -->
-
-            <div class="education-mgd">
-                <p class="education-tagline">Education </p>
-
-
-                <p class="school-name-1"><a href="http://usa.sae.edu/campuses/emeryville/" class="info-link"> SAE Ex'pression College</a></p>
-                <span class="date">  2013 - 2016 <br>
-                <span class="mgd-location"> Emeryville, CA </span>
-                </span>
-                <p class="mgd-degree"> BAS Motion Graphic Design </p>
-
-                <p class="coursework-mgd"> relevant coursework: </p>
-                <ul style="list-style:circle" class="coursework-ul">
-                    <!-- <li> Visual Storytelling </li> -->
-                    <li> Storyboarding </li>
-                    <li> Typography & Color Theory</li>
-                    <li> Graphic Design Basics</li>
-                    <li> 3D Modeling</li>
-                    <li> Animation & Motion Theory</li>
-                    <li> Advertising Concepts</li>
-
-
-
+            <nav>
+                <ul class="cf">
+                    <li><a class="dropdown" href="#">☰</a>
+                        <ul>
+                            <li><a href="#about" class="nav-title">About</a></li>
+                            <li><a href="#resume" class="nav-title">Resume</a></li>
+                            <li><a href="#work" class="nav-title">Work</a></li>
+                        </ul>
+                    </li>
                 </ul>
-
-                <div class="mgd-skill">
-                    <ul class="skills">
-                        <span class="skill"><li>After Effects </li></span>
-                        <span class="skill"><li> Photoshop </li></span>
-                        <span class="skill"><li>Illustrator </li></span>
-                        <span class="skill"><li> Premiere Pro </li></span>
-                        <span class="skill"><li> Cinema 4D </li></span>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="education-tiy">
-                <p class="school-name-2"><a href="https://www.theironyard.com/" class="info-link"> The Iron Yard </a></p>
-                <span class="date"> June 2016 - Sept. 2016 <br>
-        <span class="tiy-location"> Austin, TX </span> </span>
-                <p class="tiy-degree"> Certificate Front-End Engineering </p>
-
-                <p class="coursework-tiy"> relevant courework: </p>
-                <ul style="list-style:circle" class="coursework-ul">
-                    <li> Command line </li>
-                    <li> Git version control</li>
-                    <li>CRUD functionality </li>
-                    <li>MVC deigns </li>
-                    <li>3rd party API </li>
-                    <li> Responsive UI and UX designs </li>
-                    <li>Problem solving & Functionality </li>
-
-                </ul>
-
-                <div class="tiy-skills">
-                    <ul class="skills">
-                        <span class="skill"><li> html/css </li> </span>
-                        <span class="skill"><li>javaScript </li></span>
-                        <span class="skill"><li>jQuery </li></span>
-                        <span class="skill"><li> react </li></span>
-                        <span class="skill"><li>backbone </li></span>
-                        <!-- <span class="skill"><li> underscore</li></span> -->
-
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-
-    <!-- slideshow -->
-
-    <!-- 111111 -->
-
-    <div id="work">
-
-
-        <!-- 111 -->
-
-        <div class="container-1">
-            <h1 class="project-title"> WORK + FUN </h1>
-
-            <div class="slideshow-container">
-
-                <div class="mySlides fade">
-                    <img src="VH-desktop-squares.png" class="vh-img" id="container-img">
-                </div>
-
-                <div class="mySlides fade">
-                    <img src="VH-desktop-container.png" class="container-img">
-                </div>
-
-                <div class="text"><a href="https://www.vincentharris.com/" class="project-link">Vincent Harris,</a> the Founder and CEO of Harris Media, reinventing the digital side of Republican political campaigns. I had the opportunity to redesign his personal website
-                    building it in WordPress using HTML, CSS, and PHP plugins.</div>
-
-
-                <!-- <a class="prev">&#10094;</a>
-                <a class="next">&#10095;</a> -->
-
-                <div style="text-align:center" class="dots">
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                </div>
-
-
-            </div>
-        </div>
-        <br>
+            </nav>
+            <h1 class="header-name"> Haley Akchurin </h1>
+        </section>
 
 
 
@@ -248,133 +47,175 @@
 
 
 
-        <!-- 2222 -->
 
-        <div class="container-2">
-            <div class="slideshow-container">
-                <div class="mySlides fade">
-                    <img src="sa-1.png" class="container-img">
-                </div>
+        <div class="work-color">
+            <div class="code" id="about">
+                <div class="terminal">
+                    <p class="haley-info"> > haley.origin </p>
+                    <dd><span class="terminal-answers">  => "San Carlos, CA" </span></dd>
 
-                <div class="mySlides fade">
-                    <img src="sa-2.png" class="container-img">
-                </div>
+                    <p> > haley.education </p>
+                    <dd><span class="terminal-answers"> => "SAE Ex'pression College" </span> <br></dd>
+                    <dd><span class="terminal-answers"> => "The Iron Yard" </span></dd>
 
-                <div class="mySlides fade">
-                    <img src="sa-3.png" class="container-img">
-                </div>
-
-                <div class="mySlides fade">
-                    <img src="sa-4.png" class="container-img">
-                </div>
-
-                <div class="mySlides fade">
-                    <img src="sa-5.png" class="container-img">
-                </div>
+                    <p> > haley.major </p>
+                    <dd><span class="terminal-answers"> => "BAS Motion Graphic Design" </span> <br></dd>
+                    <dd><span class="terminal-answers"> => "Certificate Front-End Engineering" </span></dd>
 
 
+                    <p> > haley.interests </p>
+                    <dd><span class="terminal-answers"> => [ "Art Museums", "Gym", "Podcasts" "Reality TV" ] </span></dd>
 
-                <div class="text">I created <a href="http://snack-attack.surge.sh/#game" class="project-link">SNACK ATTACK</a> a computer game with HTML5 and JavaScript, where the objective is to catch as many falling food objects
-                    with the frying pan in the time alloted. All graphics were hand drawn in Illustrator. </div>
+                    <p> haley.resume </p>
+                    <dd><span class="terminal-answers">=></span>
+                        <a target="_blank" href="resume_haleyakchurin.pdf" class="terminal-link"> "haleyakchurin.pdf" </a></dd>
 
-<!--
-                <a class="prev">&#10094;</a>
-                <a class="next">&#10095;</a> -->
+                    <p> > haley.thoughts </p>
+                    <dd><span class="terminal-answers">=></span> [
+                        <a target="_blank" href="https://www.instagram.com/haleyakchurin/?hl=en" class="terminal-link">"@haleyakchurin"</a>,
+                        <a target="_blank" href="https://vimeo.com/haleya" class="terminal-link">"vimeo.com/haleya"</a>, <a target="_blank" href="https://github.com/hakchurin" class="terminal-link">"github.com/hakchurin"</a> ]
 
-                <div style="text-align:center" class="dots">
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
 
+                    </dd>
+
+                    <p> > haley.email </p>
+                    <dd><span class="terminal-answers">=></span>
+                        <a target="_blank" href="mailto:hdakchurin@gmail.com" class="terminal-link"> "hdakchurin@gmail.com" </a></dd>
                 </div>
             </div>
 
 
         </div>
-        <br>
-
-
-        <!-- 33333 -->
 
 
 
-        <div class="container-3">
-            <div class="slideshow-container">
-                <div class="mySlides fade">
-                    <img src="cw-1.png" class="container-img">
+
+
+        <div class="1">
+            <h1 id="motion-btn">MOTION</h1>
+            <div id="Page1" class="page">
+                <div class="mgd-container-1">
+                    <video autoPlay muted loop poster="Video/clock-img-video.png" id="bgvid">
+                          <source src="Video/Clockwork.webm" type="video/webm" />
+                          <source src="Video/Clockwork.mp4" type="video/mp4" />
+                     </video>
+                    <div class="overlay">
+                        <div class="text">
+                            <p class="overlay-title">CLOCKWORK </p>
+                            <a href="#ponies">ponies</a>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="mySlides fade">
-                    <img src="cw-2.png" class="container-img">
+                <div class="mgd-container-2">
+                    <video autoPlay muted loop poster="Video/clock-img-video.png" id="bgvid">
+                        <source src="Video/Save_the_Bay.webm" type="video/webm" />
+                        <source src="Video/Save the Bay.mp4" type="video/mp4" />
+                   </video>
+                    <div class="overlay">
+                        <div class="text">
+                            <p class="overlay-title">SAVE THE BAY</p>
+                            <a href="#unicorns">unicorns</a>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="mySlides fade">
-                    <img src="cw-3.png" class="container-img">
+                <div class="mgd-container-3">
+                    <video autoPlay muted loop poster="Video/clock-img-video.png" id="bgvid">
+                    <source src="Video/sarahOliverHandbags.webm" type="video/webm" />
+                    <source src="Video/sarahOliverHandbags.mp4" type="video/mp4" />
+                    </video>
+                    <div class="overlay">
+                        <div class="text">
+                            <p class="overlay-title">SARAH OLIVER HANDBAGS</p>
+                            <a href="#pegasi">pegasi</a>
+                        </div>
+                    </div>
                 </div>
 
-
-
-                <div class="text">An Ex'pressions College school project, where I made a 3D model of a <a href="https://vimeo.com/145183740" class="project-link"> POCKETWATCH</a> in Cinema 4D. </div>
-
-<!--
-                <a class="prev">&#10094;</a>
-                <a class="next">&#10095;</a> -->
-
-                <div style="text-align:center" class="dots">
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
+                <div class="mgd-container-4">
+                    <video autoPlay muted loop poster="Video/clock-img-video.png" id="bgvid">
+                    <source src="Video/reel.webm" type="video/webm" />
+                    <source src="Video/reel.mp4" type="video/mp4" />
+                   </video>
+                    <div class="overlay">
+                        <div class="text">
+                            <p class="overlay-title">REEL</p>
+                            <a href="#haley">ahely</a>
+                        </div>
+                    </div>
                 </div>
 
+                <div class="haley">
+                    <div id="content">
+                        <h1></h1>
+                        <main></main>
+                    </div>
+                </div>
             </div>
-            <br>
         </div>
 
 
-        <!-- 44444 -->
 
 
-        <div class="container-4">
-            <div class="slideshow-container">
-                <div class="mySlides fade">
-                    <img src="vh1-1.png" class="container-img">
+
+        <!-- DEV -->
+
+        <div class="2">
+            <h1 id="dev-btn">DEVELOPMENT</h1>
+            <div id="Page2" class="page">
+
+                <div class="dev-container-1">
+                    <div class="slideshow-container">
+                        <div class="mySlides fade">
+                            <img src="snackAttack-containers.png" class="container-img">
+                        </div>
+
+                         <div class="mySlides fade">
+                            <img src="snackAttack-containers.png" class="container-img">
+                        </div>
+
+                        <div class="mySlides fade">
+                            <img src="snackAttack-containers.png" class="container-img">
+                        </div>
+
+
+                        <div class="dots">
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                        </div>
+
+                    </div>
                 </div>
-
-                <div class="mySlides fade">
-                    <img src="vh1-2.png" class="container-img">
-                </div>
-
-                <div class="mySlides fade">
-                    <img src="vh1-3.png" class="container-img">
-                </div>
+           </div>
 
 
-                <div class="text">An experimental & personal project, where I made a bumper for the <a href="https://vimeo.com/235855214" class="project-link">VH1 TELEVISION NETWORK.</a> </div>
 
 
-                <!-- <a class="prev">&#10094;</a>
-                <a class="next">&#10095;</a> -->
 
-                <div style="text-align:center" class="dots">
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                </div>
+
+
 
             </div>
-            <br>
         </div>
 
 
-        <!-- end slideshow -->
 
 
-    </div>
+
+
+
+
+    <!-- <a href="#pegasi">pegasi</a> -->
+
+
+
 
 
     <script src="main.js" type="text/javascript"></script>
+    <script src="data.js" type="text/javascript"></script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 
