@@ -189,8 +189,8 @@ $(document).ready(function() {
         $('#mask').fadeTo("slow", 0.8);
 
         //Get the window height and width
-        var winH = $(window).height();
-        var winW = $(window).width();
+        var winH = $(window).height() / 4;
+        var winW = $(window).width() / 4;
 
         //Set the popup window to center
         $(id).css('top', winH / 2 - $(id).height() / 2);
@@ -201,12 +201,7 @@ $(document).ready(function() {
 
     });
 
-    //if close button is clicked
-    $('.window .close').click(function(e) {
-        //Cancel the link behavior
-        e.preventDefault();
-        $('#mask, .window').hide();
-    });
+
 
     //if mask is clicked
     $('#mask').click(function() {
