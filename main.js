@@ -96,18 +96,20 @@ window.onclick = function(event) {
 
             }
 
-        }
+        };
 
     }
 })();
 
 
 
+// img modal
+  // $('#mask, .window')
 
 
 
 
-
+// end
 
 
 

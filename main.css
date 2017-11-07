@@ -725,7 +725,7 @@ video#bgvid {
 
 .overlay-dev {
     position: absolute;
-    bottom: 66px;
+    bottom: 5px;
     left: 2px;
     height: 25vh;
     width: 29.4vw;
@@ -805,12 +805,13 @@ video#bgvid {
 }
 
 
-.dots-modal {
+.dots {
     text-align: center;
     top: 30px;
     position: relative;
     left: 525px;
 }
+
 
 
 .modal-description {
