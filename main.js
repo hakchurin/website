@@ -103,18 +103,6 @@ window.onclick = function(event) {
 
 
 
-// img modal
-  // $('#mask, .window')
-
-
-
-
-// end
-
-
-
-
-
 
 function show(elementID) {
     var ele = document.getElementById(elementID);
@@ -124,7 +112,7 @@ function show(elementID) {
     }
     var pages = document.getElementsByClassName('page');
     for (var i = 0; i < pages.length; i++) {
-        pages[i].style.display = 'none';
+        pages[i].style.display = 'block';
     }
     ele.style.display = 'block';
 
@@ -191,12 +179,12 @@ $(document).ready(function() {
         $('#mask').fadeTo("slow", 0.8);
 
         //Get the window height and width
-        var winH = $(window).height() / 4;
-        var winW = $(window).width() / 4;
+        var winH = $(window).height();
+        var winW = $(window).width();
 
         //Set the popup window to center
         $(id).css('top', winH / 2 - $(id).height() / 2);
-        $(id).css('left', winW / 2 - $(id).width() / 2);
+         $(id).css('left', winW / 2 - $(id).width() / 2);
 
         //transition effect
         $(id).fadeIn(2000);
@@ -205,10 +193,17 @@ $(document).ready(function() {
 
 
 
-    //if mask is clicked
-    $('#mask').click(function() {
-        $(this).hide();
-        $('.window').hide();
-    });
 
-});
+    $('.window .close').click(function(e) {
+         //Cancel the link behavior
+         e.preventDefault();
+         $('#mask, .window').hide();
+     });
+
+     //if mask is clicked
+     $('#mask').click(function() {
+         $(this).hide();
+         $('#mask, .window').hide();
+     });
+
+ });

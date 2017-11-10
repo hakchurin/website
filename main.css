@@ -725,7 +725,7 @@ video#bgvid {
 
 .overlay-dev {
     position: absolute;
-    bottom: 5px;
+    bottom: 50px;
     left: 2px;
     height: 25vh;
     width: 29.4vw;
@@ -796,23 +796,38 @@ video#bgvid {
 
 /*modal img*/
 
-.container-img-modal {
-    width: 80vw;
-    margin: 0 auto;
+.slideshow-container {
+    width: auto;
+    height: auto;
+    /*right: 395px;
     position: relative;
-    left: 190px;
-    top: 15px;
+    bottom: 300px;*/
+    /*text-align: center;*/
+}
+
+
+
+.container-img-modal {
+    position: relative;
+right: 270px;
+bottom: 350px;
+width: 65vw;
 }
 
 
 .dots {
     text-align: center;
-    top: 30px;
-    position: relative;
-    left: 525px;
+position: relative;
+bottom: 330px;
+margin: 0 auto;
 }
 
-
+p.modal-description{
+    text-align: center;
+position: relative;
+bottom: 295px;
+margin: 0 auto;
+}
 
 .modal-description {
     color: white;
@@ -824,4 +839,16 @@ p.modal-description {
     position: relative;
     left: 60px;
     top: 15px;
+}
+
+
+a.close {
+    font-size: 2rem;
+font-weight: bolder;
+text-decoration: none;
+font-family: "SF New Republic", sans-serif;
+color: white;
+position: relative;
+left: 770px;
+bottom: 290px;
 }
