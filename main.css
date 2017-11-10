@@ -634,9 +634,6 @@ h1#motion-btn {
     color:#383737;
 }
 
-h1#motion-btn:hover {
-    background-color: yellow;
-}
 
 
 h1#design-btn {
@@ -650,9 +647,7 @@ h1#design-btn {
 }
 
 h1#dev-btn {
-    /*background-color: #94959E;*/
     background-color:rgba(148,148,157,0.5);
-    /*font-family: 'Montserrat', sans-serif;*/
     font-family: "SF New Republic", sans-serif;
     cursor: pointer;
     color:#383737;
