@@ -84,23 +84,16 @@ window.onclick = function(event) {
 
             }
 
-            if (this.className == 'prev') {
-
-                if (curr_slide.previousElementSibling) {
-                    curr_slide.previousElementSibling.classList.add('active-slide');
-                    curr_dot.previousElementSibling.classList.add('active');
-                } else {
-                    slides[slides.length - 1].classList.add('active-slide');
-                    dots[slides.length - 1].classList.add('active');
-                }
-
-            }
-
         };
-
     }
 })();
 
+
+$(document).ready(function(){
+    $('.dev-btn').click(function(){
+        init();
+    });
+});
 
 
 
