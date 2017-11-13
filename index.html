@@ -31,7 +31,7 @@
                     <li><a class="dropdown" href="#">☰</a>
                         <ul>
                             <li><a href="#about" class="nav-title">About</a></li>
-                            <li><a href="#resume" class="nav-title">Resume</a></li>
+                            <!-- <li><a href="#resume" class="nav-title">Resume</a></li> -->
                             <li><a href="#work" class="nav-title">Work</a></li>
                         </ul>
                     </li>
@@ -92,7 +92,7 @@
 
 
         <div class="1">
-            <h1 id="motion-btn">MOTION</h1>
+            <h1 id="motion-btn" class="motion-btn">MOTION</h1>
             <div id="Page1" class="page">
                 <div class="mgd-container-1">
                     <video autoPlay muted loop poster="Video/clock-img-video.png" id="bgvid">
@@ -102,7 +102,7 @@
                     <div class="overlay">
                         <div class="text">
                             <p class="overlay-title">CLOCKWORK </p>
-                            <a href="#ponies">ponies</a>
+                            <a href="#ponies" class="mgd-link">view</a>
                         </div>
                     </div>
                 </div>
@@ -115,7 +115,7 @@
                     <div class="overlay">
                         <div class="text">
                             <p class="overlay-title">SAVE THE BAY</p>
-                            <a href="#unicorns">unicorns</a>
+                            <a href="#unicorns" class="mgd-link">view</a>
                         </div>
                     </div>
                 </div>
@@ -127,8 +127,8 @@
                     </video>
                     <div class="overlay">
                         <div class="text">
-                            <p class="overlay-title">SARAH OLIVER HANDBAGS</p>
-                            <a href="#pegasi">pegasi</a>
+                            <p class="overlay-title" id="soh">SARAH OLIVER HANDBAGS</p>
+                            <a href="#pegasi" class="mgd-link">view</a>
                         </div>
                     </div>
                 </div>
@@ -141,7 +141,7 @@
                     <div class="overlay">
                         <div class="text">
                             <p class="overlay-title">REEL</p>
-                            <a href="#haley">ahely</a>
+                            <a href="#haley" class="mgd-link">view</a>
                         </div>
                     </div>
                 </div>
@@ -162,11 +162,10 @@
         <!-- DEV -->
 
         <div class="2">
-            <h1 id="dev-btn">DEVELOPMENT</h1>
+            <h1 id="dev-btn" class="dev-btn">DEVELOPMENT</h1>
             <div id="Page2" class="page">
 
                 <div class="dev-container-1">
-
                     <img src="snackAttack-containers-1.png" class="container-img">
                     <div class="overlay-dev">
                         <div class="text">
@@ -176,12 +175,22 @@
                     </div>
                 </div>
 
+                <div class="dev-container-2">
+                    <img src="vh-containers-1.png" class="container-img" id="vh">
+                    <div class="overlay-dev">
+                        <div class="text">
+                            <p class="overlay-dev-title">devyy</p>
+                            <a href="#dialog-vh" name="modal">dev </a>
+                        </div>
+                    </div>
+                </div>
+
 
                 <div id="boxes">
                     <div id="dialog" class="window">
 
                         <ul class="slideshow-container">
-                            <a href="#" class="close">X</a>
+                            <!-- <a href="#" class="close">X</a> -->
 
                             <li class="mySlides fade">
                                 <img src="snackAttack-containers-1.png" class="container-img-modal">
@@ -205,14 +214,33 @@
                             <p class="modal-description"> Hello and other things </p>
                         </ul>
                     </div>
-
                     <div id="mask"> </div>
-                 <div>
+                    <div>
+
+                        <div id="boxes">
+                            <div id="dialog-vh" class="window">
+
+                                <ul class="slideshow-container">
+                                    <a href="#" class="close">X</a>
+
+                                    <li class="mySlides fade">
+                                        <img src="vh-containers-1.png" class="container-img-modal">
+                                    </li>
+
+                                    <div class="dots">
+                                        <span class="dot"></span>
+                                    </div>
+                                    <p class="modal-description"> Hello and other things </p>
+                                </ul>
+                            </div>
+                            <div id="mask"> </div>
+                            <div>
 
 
 
-            </div>
-        </div>
+
+                            </div>
+                        </div>
 
 
 
@@ -221,16 +249,16 @@
 
 
 
-        <!-- <a href="#pegasi">pegasi</a> -->
+                        <!-- <a href="#pegasi">pegasi</a> -->
 
 
 
 
 
-        <script src="main.js" type="text/javascript"></script>
-        <script src="data.js" type="text/javascript"></script>
+                        <script src="main.js" type="text/javascript"></script>
+                        <script src="data.js" type="text/javascript"></script>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+                        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 
 
