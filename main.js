@@ -101,6 +101,8 @@ window.onclick = function(event) {
 $(document).ready(function() {
     $("#Page1").hide();
     $("#Page2").hide();
+    $("#Page3").hide();
+
 
     $(document).ready(function() {
         $("#motion-btn").click(function() {
@@ -110,13 +112,13 @@ $(document).ready(function() {
 
     $(document).ready(function() {
         $("#dev-btn").click(function() {
-            $("#Page2").toggle();
+            $("#Page3").toggle();
         });
     });
 
     $(document).ready(function() {
         $("#design-btn").click(function() {
-            $("#Page3").toggle();
+            $("#Page2").toggle();
         });
     });
 });

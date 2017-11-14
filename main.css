@@ -390,76 +390,6 @@ h1.project-title {
 
 
 
-.container-1 {
-    /*background-color: #fafafa;*/
-    height: 720px;
-    /*margin-top: 20px;*/
-}
-
-@media  (max-width: 400px) {
-    .container-1  {
-        height: 620px;
-        margin-left: 5px;
-     }
-}
-
-
-.container-2 {
-    /*background-color: #fafafa;*/
-    height: 670px;
-}
-
-@media  (max-width: 400px) {
-    .container-2  {
-        height: 510px;
-        margin-left: 5px;
-     }
-}
-
-
-
-.container-3  {
-    background-color: #fafafa;
-    height: 730px;
-}
-
-@media  (max-width: 400px) {
-    .container-3  {
-        height: 470px;
-        margin-left: 5px;
-     }
-}
-
-
-.container-4 {
-    background-color: #fafafa;
-    height: 720px;
-    margin-top: 20px;
-}
-
-@media  (max-width: 400px) {
-.container-4   {
-        height: 460px;
-        margin-left: 5px;
-     }
-}
-
-/*.container-3, .container-4 */
-
-
-/*PICTURE SLIDES*/
-/*.slideshow-container {
-margin: 0 auto;
-   max-width: 1000px;
-    position: relative;
-    top: 60px;
-}*/
-
-
-.dots {
-    margin-top: 30px
-}
-
 
 
 /* NEXT & PREVIOUS BUTTONS */
@@ -618,7 +548,9 @@ margin: 0 auto;
 
 
 
-
+#content {
+    font-family: 'Futura', sans-serif;
+}
 
 /*NEW HOME PAGE BOTTOM BARS*/
 
@@ -632,24 +564,26 @@ h1#motion-btn {
     color:#383737;
 }
 
+h1#design-btn {
+    background-color:rgba(179,180,191,0.4);
+    font-family: "SF New Republic", sans-serif;
+    cursor: pointer;
+    color:#383737;
+}
+
+
 
 h1#dev-btn {
     background-color:rgba(179,180,191,0.4);
     font-family: "SF New Republic", sans-serif;
     cursor: pointer;
     color:#383737;
-
 }
 
 
 
-h1#design-btn {
-    /*background-color: #B4B5C0;*/
-    background-color:rgba(179,180,191,0.4);
-    font-family: "SF New Republic", sans-serif;
-    cursor: pointer;
-    color:#383737;
-}
+
+
 
 
 
@@ -704,9 +638,7 @@ img#vh {
     width: 23.5vw;
     opacity: 0;
     transition: .5s ease;
-    /*background-color: rgba(220,222,236,0.8);*/
-    /*background-color: #fff;*/
-        background-color: rgba(220,222,236,0.6);
+    background-color: rgba(220,222,236,0.6);
 }
 
 .mgd-container-1:hover .overlay, .mgd-container-2:hover .overlay, .mgd-container-3:hover .overlay, .mgd-container-4:hover .overlay {
@@ -714,8 +646,39 @@ img#vh {
 }
 
 
-/*DEV OVERLAY*/
 
+
+/*design overlay*/
+
+.design-container-1 {
+  position: relative;
+  width: 50%;
+  display: inline;
+}
+
+.design-container-1:hover .overlay-design {
+    opacity:1;
+}
+
+.overlay-design {
+        position: absolute;
+        bottom: 2px;
+        left: 5px;
+        height: 24vh;
+        width: 24vw;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: rgba(220,222,236,0.8);
+}
+
+.overlay-design-title {
+    font-size: 2.5rem;
+    font-family: "SF New Republic", sans-serif;
+    margin: auto;
+}
+
+
+/*DEV OVERLAY*/
 
 
 
@@ -729,11 +692,6 @@ img#vh {
   opacity: 1;
 }
 
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
 
 .overlay-dev {
     position: absolute;
@@ -832,6 +790,13 @@ img#vh {
 right: 270px;
 bottom: 350px;
 width: 65vw;
+}
+
+img.container-img-modal-water {
+    position: relative;
+right: 70px;
+bottom: 350px;
+width: 35vw;
 }
 
 

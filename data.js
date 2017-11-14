@@ -5,15 +5,15 @@
 
 var data = {
   ponies: {
-    title: 'I love ponies',
+    title: 'Clockwork',
     body: 'Ponies are absolutely the best!?'
   },
   unicorns: {
-    title: 'Unicorns for life',
+    title: 'Save the Bay',
     body: 'If unicorns aren\'t real, I will be so sad. But what\'s cool is that, '
   },
   pegasi: {
-    title: 'Pegasus for life',
+    title: 'Sarah Oliver Handbags',
     body: 'If unicorns aren\'t real, I will be so sad.'
 },
 haley: {
