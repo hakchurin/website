@@ -126,6 +126,12 @@ $(document).ready(function() {
 
 
 
+// 
+// $(document).ready(function() {
+//     $("#motion-btn").click(function() {
+//         $("##motion-btn").css("text-align:center");
+//     });
+// });
 
 
 

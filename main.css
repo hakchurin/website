@@ -98,15 +98,18 @@ nav a {
 
 /*HEADER NAME*/
 
-.header-name {
-    /*background-color: #fafafa;*/
-    /*background-color: #DEDEDE;*/
-    /*rgb(222,222,222)*/
+.banner {
     background-color: rgba(222,222,222,0.6);
+    width: 100vw;
+    height: 15vh;
+    position: fixed;
+    z-index: 1000;
 
-    /*font-family: 'Montserrat', sans-serif;*/
+
+}
+
+.header-name {
     font-family: "SF New Republic", sans-serif;
-
     font-size: 15px;
     left: 0;
     letter-spacing: 0.2em;
@@ -117,7 +120,22 @@ nav a {
     text-transform: uppercase;
     top: 0;
     width: 100%;
-    z-index: 1000;
+}
+
+.header-title{
+        font-family: "SF New Republic", sans-serif;
+        font-size: 15px;
+        left: 0;
+        letter-spacing: 0.2em;
+        line-height: 100px;
+        margin: 0;
+        position: fixed;
+        text-align: center;
+        text-transform: uppercase;
+        top: 25px;
+        width: 100%;
+        z-index: 1000;
+
 }
 
 
@@ -555,31 +573,53 @@ h1.project-title {
 /*NEW HOME PAGE BOTTOM BARS*/
 
 
-h1#motion-btn {
-    /*background-color: #DCDEEC;*/
-    background-color: rgba(220,222,236,0.4);
-    /*font-family: 'Montserrat', sans-serif;*/
-    font-family: "SF New Republic", sans-serif;
-    cursor: pointer;
-    color:#383737;
+span.mgd-grow:hover, span.design-grow:hover, span.dev-grow:hover {
+    font-size: 4rem;
+     transition: font-size 0.5s;
 }
 
-h1#design-btn {
-    background-color:rgba(179,180,191,0.4);
+span.mgd-grow, span.design-grow, span.dev-grow {
+    transition: font-size 0.5s;
+    font-size: 2rem;
+}
+
+
+h1#motion-btn {
+    /*background-color: rgba(220,222,236,0.4);*/
     font-family: "SF New Republic", sans-serif;
     cursor: pointer;
     color:#383737;
+    /*height: 0vw;*/
+    text-align: center;
+    /*transition:height 0.5s;*/
+
 }
+
+
+
+h1#design-btn {
+    /*background-color:rgba(179,180,191,0.4);*/
+    font-family: "SF New Republic", sans-serif;
+    cursor: pointer;
+    color:#383737;
+    transition: font-size 0.5s;
+    text-align: center;
+    color: #444;
+    font-size: 2rem
+
+}
+
 
 
 
 h1#dev-btn {
-    background-color:rgba(179,180,191,0.4);
+    /*background-color:rgba(179,180,191,0.4);*/
     font-family: "SF New Republic", sans-serif;
     cursor: pointer;
     color:#383737;
+    text-align: center;
+    font-size: 2rem;
 }
-
 
 
 
