@@ -219,7 +219,7 @@ nav a {
 }
 
 .terminal-link {
-    color: #3a92c8;
+    color:#fdf035;
     text-decoration: none;
 }
 
@@ -597,7 +597,10 @@ h1#motion-btn {
 
 }
 
+h1#motion-btn:hover {
+    color:#fdf035;
 
+}
 
 h1#design-btn {
     /*background-color:rgba(179,180,191,0.4);*/
@@ -614,6 +617,11 @@ h1#design-btn {
 
 
 
+h1#design-btn:hover {
+    color:#fdf035;
+}
+
+
 
 h1#dev-btn {
     /*background-color:rgba(179,180,191,0.4);*/
@@ -626,6 +634,11 @@ h1#dev-btn {
     top: 60px;
 }
 
+
+h1#dev-btn:hover {
+    color:#fdf035;
+
+}
 
 
 
