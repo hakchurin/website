@@ -593,8 +593,8 @@ h1#motion-btn {
     text-align: center;
     /*transition:height 0.5s;*/
     position: relative;
-    top: 60px;
-
+    /*top: 60px;*/
+    margin-bottom: 40px;
 }
 
 h1#motion-btn:hover {
@@ -612,7 +612,8 @@ h1#design-btn {
     color: #444;
     font-size: 2rem;
     position: relative;
-    top: 60px;
+    /*top: 30px;*/
+    /*margin-bottom: 40px;*/
 }
 
 
@@ -631,7 +632,8 @@ h1#dev-btn {
     text-align: center;
     font-size: 2rem;
     position: relative;
-    top: 60px;
+    top: 30px;
+    /*margin-bottom: 40px;*/
 }
 
 
@@ -682,6 +684,8 @@ img#vh {
   display: inline;
 }
 
+
+
 .image {
   display: block;
   width: 100%;
@@ -690,13 +694,15 @@ img#vh {
 
 .overlay {
     position: absolute;
-    bottom: 9px;
-    left: 7px;
-    height: 23vh;
-    width: 23.5vw;
+    bottom: 40px;
+     left: 1px;
+    height: 15vh;
+    width: 24.4vw;
     opacity: 0;
     transition: .5s ease;
-    background-color: rgba(220,222,236,0.6);
+    /*background-color: rgba(220,222,236,0.6);*/
+    background-color: rgba(222,222,222,0.6);
+    /*background-color: white;*/
 }
 
 .mgd-container-1:hover .overlay, .mgd-container-2:hover .overlay, .mgd-container-3:hover .overlay, .mgd-container-4:hover .overlay {
@@ -708,33 +714,53 @@ img#vh {
 
 /*design overlay*/
 
-.design-container-1 {
+.design-container-1, .design-container-2 {
   position: relative;
   width: 50%;
   display: inline;
 }
 
-.design-container-1:hover .overlay-design {
+.design-container-1:hover .overlay-design, .design-container-2:hover .overlay-design {
     opacity:1;
 }
 
 .overlay-design {
-        position: absolute;
-        bottom: 2px;
-        left: 5px;
-        height: 24vh;
-        width: 24vw;
-        opacity: 0;
-        transition: .5s ease;
-        background-color: rgba(220,222,236,0.8);
+    position: absolute;
+    bottom: 40px;
+     left: 1px; 
+    height: 15vh;
+    width: 24.8vw;
+    opacity: 0;
+    transition: .5s ease;
+     /*background-color: rgba(220,222,236,0.6); */
+     background-color: rgba(222,222,222,0.6);
 }
 
 .overlay-design-title {
     font-size: 2.5rem;
     font-family: "SF New Republic", sans-serif;
     margin: auto;
+    color: #fdf035;
 }
 
+.design-link {
+    font-family: "SF New Republic", sans-serif;
+text-decoration: none;
+font-size: 3rem;
+margin: 0 auto;
+position: relative;
+top: 10px;
+/* color: rgba(220,222,236,0.6); */
+/*color: #fdf035;*/
+color: white;
+}
+
+
+
+
+video#bgvid:hover{
+    background-color: pink;
+}
 
 /*DEV OVERLAY*/
 
@@ -788,6 +814,7 @@ img#vh {
     font-size: 2.5rem;
     font-family: "SF New Republic", sans-serif;
     margin: auto;
+    color: #fdf035;
 }
 
 .overlay-link {
@@ -798,6 +825,14 @@ img#vh {
 .mgd-link {
     font-family: "SF New Republic", sans-serif;
     text-decoration: none;
+    /*color: white;*/
+    font-size: 3rem;
+    margin: 0 auto;
+    position: relative;
+    top: 10px;
+    /*color: rgba(220,222,236,0.6);*/
+    color: #fdf035;
+
 }
 
 #soh {
