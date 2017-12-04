@@ -470,10 +470,14 @@ h1.project-title {
 
 
 
-
+h1 {
+    font-family: avenir;
+    font-weight: 600;
+}
 
 #content {
-    font-family: 'Futura', sans-serif;
+    font-family: avenir;
+    margin-left: 10px;
 }
 
 /*NEW HOME PAGE BOTTOM BARS*/
@@ -585,7 +589,7 @@ img#vh {
   position: relative;
   width: 50%;
   display: inline;
-  padding: 2px 5px 2px 5px;
+  /*padding: 2px 5px 2px 5px;*/
 }
 
 
@@ -632,7 +636,7 @@ img#vh {
 .overlay-design {
     position: absolute;
     bottom: 40px;
-     left: 1px;
+     left: 5px;
     height: 15vh;
     width: 24.8vw;
     opacity: 0;
@@ -674,6 +678,11 @@ color: #fdf035;
 /*color: white;*/
 }
 
+
+quote{
+    font-style: italic;
+        font-weight: 600;
+}
 
 
 
@@ -806,9 +815,9 @@ color: #fdf035;
 
 .container-img-modal {
     position: relative;
-right: 270px;
+right: 230px;
 bottom: 350px;
-width: 65vw;
+width: 60vw;
 }
 
 img.container-img-modal-water {
@@ -843,10 +852,13 @@ margin: 0 auto;
 }
 
 p.modal-description{
-    text-align: center;
-position: relative;
-bottom: 295px;
-margin: 0 auto;
+     text-align: center;
+    position: relative;
+    bottom: 315px;
+    margin: 0 auto;
+    width: 80vw;
+    right: 390px;
+    font-family: avenir;
 }
 
 .modal-description {

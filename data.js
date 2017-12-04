@@ -6,12 +6,11 @@
 var data = {
   ponies: {
     title: 'Clockwork',
-    body: 'Created in Cinema 4D'
+    body: 'Practice with 3D modeling, with techniques focusing on lighting, sculpting, and movement. Created in Cinema 4D'
   },
   saveTheBay: {
     title: 'Save the Bay',
-    school:'Expression college',
-    body: 'For this project, I took on the creative director role and led myself and a team of designers to create a stop motion PSA for the Zero Trash, Zero Excuse campaign for Save the Bay, a  non-profit in the San Francisco Bay Area stressing the importance in eliminating the amount of trash consumers make, and above all making sure the trash doesn’t end up in the communities waterways.',
+    body: 'For this project at Expression College, I took on the creative director role and led myself and a team of designers to create a stop motion PSA for the Zero Trash, Zero Excuse campaign for Save the Bay, a  non-profit in the San Francisco Bay Area stressing the importance in eliminating the amount of trash consumers make, and above all making sure the trash doesn’t end up in the communities waterways.',
     quote: ' "Save the Bay is the largest regional organization working to protect, restore and celebrate San Francisco Bay since 1961." '
   },
   sarahOliverHandbags: {
@@ -32,7 +31,6 @@ window.addEventListener('hashchange', function() {
 
 function renderContent(whatContent) {
   document.querySelector('#content h1').textContent = data[whatContent].title;
-  document.querySelector('#content school').textContent = data[whatContent].school;
   document.querySelector('#content main').textContent = data[whatContent].body;
   document.querySelector('#content quote').textContent = data[whatContent].quote;
 
