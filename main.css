@@ -873,6 +873,12 @@ color: white;
 text-align: center;
 }
 
+
+.snack-link {
+    color: #fdf035;
+    text-decoration: none;
+}
+
 /*
 a.close {
     font-size: 2rem;
