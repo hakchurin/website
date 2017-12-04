@@ -503,10 +503,10 @@ h1#motion-btn {
     margin-bottom: 40px;
 }
 
-h1#motion-btn:hover {
+/*h1#motion-btn:hover {
     color:#fdf035;
 
-}
+}*/
 
 h1#design-btn {
     /*background-color:rgba(179,180,191,0.4);*/
@@ -519,14 +519,11 @@ h1#design-btn {
     font-size: 2rem;
     position: relative;
     /*top: 30px;*/
-    /*margin-bottom: 40px;*/
+    margin-bottom: 40px;
 }
 
 
 
-h1#design-btn:hover {
-    color:#fdf035;
-}
 
 
 
@@ -543,10 +540,10 @@ h1#dev-btn {
 }
 
 
-h1#dev-btn:hover {
+/*h1#dev-btn:hover {
     color:#fdf035;
 
-}
+}*/
 
 
 
@@ -588,6 +585,7 @@ img#vh {
   position: relative;
   width: 50%;
   display: inline;
+  padding: 2px 5px 2px 5px;
 }
 
 
@@ -624,6 +622,7 @@ img#vh {
   position: relative;
   width: 50%;
   display: inline;
+  padding: 2px 5px 2px 5px;
 }
 
 .design-container-1:hover .overlay-design, .design-container-2:hover .overlay-design, .design-container-3:hover .overlay-design, .design-container-4:hover .overlay-design {
@@ -642,6 +641,20 @@ img#vh {
      background-color: rgba(222,222,222,0.6);
 }
 
+@media  (max-width: 400px) {
+    .overlay-design  {
+        width: 89.8vw;
+     }
+}
+
+@media  (max-width: 800px) {
+    .overlay-design  {
+        width: 45vw;
+     }
+}
+
+
+
 .overlay-design-title {
     font-size: 2.5rem;
     font-family: "SF New Republic", sans-serif;
@@ -657,16 +670,13 @@ margin: 0 auto;
 position: relative;
 top: 10px;
 /* color: rgba(220,222,236,0.6); */
-/*color: #fdf035;*/
-color: white;
+color: #fdf035;
+/*color: white;*/
 }
 
 
 
 
-video#bgvid:hover{
-    background-color: pink;
-}
 
 /*DEV OVERLAY*/
 
@@ -708,8 +718,8 @@ margin: 0 auto;
 position: relative;
 top: 10px;
 /* color: rgba(220,222,236,0.6); */
-/*color: #fdf035;*/
-color: white;
+color: #fdf035;
+/*color: white;*/
 }
 
 
@@ -812,6 +822,19 @@ img.container-img{
     width: 25%;
 }
 
+@media  (max-width: 400px) {
+    img.container-img  {
+        width: 90%;
+     }
+}
+
+@media  (max-width: 800px) {
+    img.container-img  {
+        width: 50%;
+     }
+}
+
+
 .dots {
     text-align: center;
 position: relative;
@@ -831,7 +854,12 @@ margin: 0 auto;
     z-index: 1000;
 }
 
-
+p.modal-description-1{
+    position: relative;
+bottom: 300px;
+color: white;
+text-align: center;
+}
 
 /*
 a.close {
