@@ -622,16 +622,14 @@ img#vh {
 
 /*design overlay*/
 
-.design-container-1, .design-container-2, .design-container-3, .design-container-4 {
+.design-container-1, .design-container-2, .design-container-3, .design-container-4, .design-container-5 {
   position: relative;
   width: 50%;
   display: inline;
   padding: 2px 5px 2px 5px;
 }
 
-.design-container-1:hover .overlay-design, .design-container-2:hover .overlay-design, .design-container-3:hover .overlay-design, .design-container-4:hover .overlay-design {
-    opacity:1;
-}
+
 
 .overlay-design {
     position: absolute;
@@ -641,8 +639,6 @@ img#vh {
     width: 24.8vw;
     opacity: 0;
     transition: .5s ease;
-     /*background-color: rgba(220,222,236,0.6); */
-     background-color: rgba(222,222,222,0.6);
 }
 
 @media  (max-width: 400px) {
@@ -868,9 +864,10 @@ p.modal-description{
 
 p.modal-description-1{
     position: relative;
-bottom: 300px;
+bottom: 330px;
 color: white;
 text-align: center;
+
 }
 
 
