@@ -478,6 +478,21 @@ h1 {
 #content {
     font-family: avenir;
     margin-left: 10px;
+    display: grid;
+}
+
+#content h1, #content links, #content quote, #content main {
+        margin: 0px 0px 10px 0px;
+}
+
+#content links {
+    font-weight: 600;
+    width: 5vw;
+}
+
+#content links:hover {
+    color: #fdf035;
+    cursor: pointer;
 }
 
 /*NEW HOME PAGE BOTTOM BARS*/
