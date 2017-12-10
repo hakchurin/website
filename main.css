@@ -10,8 +10,12 @@
     height: 15vh;
     position: fixed;
     z-index: 1000;
+}
 
-
+@media  (max-width: 750px) {
+    .banner  {
+        height: 10vh;
+         }
 }
 
 .header-name {
@@ -50,8 +54,21 @@
 
 /*TERMINAL BACKGROUND COLOR*/
 
+
+
+
 .work-color {
-    height: 100vh;
+    height:100vh;
+
+}
+
+@media  (max-width: 750px) {
+    .work-color  {
+        height: 64vh;
+        position: relative;
+        top: 5px;
+         }
+
 }
 
 
