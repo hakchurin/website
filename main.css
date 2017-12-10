@@ -862,6 +862,16 @@ bottom: 330px;
 margin: 0 auto;
 }
 
+.atta-title {
+    position: relative;
+    bottom: 330px;
+    color: white;
+    /* text-align: center; */
+    font-family: Avenir;
+    width: 100vw;
+    right: 290px;
+}
+
 p.modal-description{
      text-align: center;
     position: relative;
@@ -886,19 +896,22 @@ text-align: center;
 }
 
 
-.snack-link {
+.snack-link, .atta-link {
     color: #fdf035;
     text-decoration: none;
 }
 
-/*
-a.close {
-    font-size: 2rem;
-font-weight: bolder;
-text-decoration: none;
-font-family: "SF New Republic", sans-serif;
-color: white;
-position: relative;
-left: 770px;
-bottom: 290px;
-}*/
+img.container-img-modal {
+    position: relative;
+    right: 300px;
+    bottom: 350px;
+    width: 66vw;
+}
+
+
+img.container-img-modal-water {
+    position: relative;
+    right: 20px;
+    bottom: 350px;
+    width: 30vw;
+}

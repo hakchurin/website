@@ -21,7 +21,7 @@ var data = {
     title: 'Sarah Oliver Handbags',
     body: 'In this client based, Advertising Concepts class, two digital filmmakers paired with a designer to create a short video showcasing their client and product. Our client was Sarah Oliver Handbags,  Sarah Oliver is the founder & CEO, designer and knitter extraordinaire. Each handbag is handknit in the USA and manufactured by The Purlettes + 1, a  group of men and women, averaging the age of 88 at The Redwoods Senior Retirement Community, in Northern California. Sarah Came to us wanting to rebrand her image to attract a younger demographic.',
     text:'VIEW',
-    url:'https://vimeo.com/145183740'
+    url:'https://www.youtube.com/watch?v=orpyWuoF9eU'
 },
 haleyReel: {
   title: 'Pegasus for life',
@@ -59,7 +59,6 @@ function renderContent(whatContent) {
   $(document).ready(function() {
       $("links").click(function() {
           window.location=(data[whatContent].url);
-          console.log(links);
       });
   });
 
