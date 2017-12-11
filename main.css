@@ -1,5 +1,8 @@
 
-
+#content links:hover {
+    color: #fdf035;
+    cursor: pointer;
+}
 
 
 /*HEADER NAME*/
@@ -64,7 +67,7 @@
 
 @media  (max-width: 750px) {
     .work-color  {
-        height: 64vh;
+        height: 100vh;
         position: relative;
         top: 5px;
          }
@@ -133,7 +136,7 @@
 
 
 
-/* CAPTION TEXT */
+/* makes the slidehso a slideshow*/
 
 .text-pocket {
     font-size: 18px;
@@ -504,7 +507,7 @@ text-align: center;
 
 img.container-img-modal {
     position: relative;
-    right: 230px;
+    right: 250px;
     bottom: 350px;
     width: 60vw;
     margin-top: 15px;
