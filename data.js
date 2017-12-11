@@ -24,8 +24,8 @@ var data = {
     url:'https://www.youtube.com/watch?v=orpyWuoF9eU'
 },
 haleyReel: {
-  title: 'Pegasus for life',
-  body: 'If unicorns aren\'t real, I will be so sad.',
+  title: 'Motion Graphic Reel',
+  // body: 'If unicorns aren\'t real, I will be so sad.',
   text:'VIEW',
   url:'https://vimeo.com/145183740'
 }
