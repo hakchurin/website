@@ -25,7 +25,6 @@ var data = {
 },
 haleyReel: {
   title: 'Motion Graphic Reel',
-  // body: 'If unicorns aren\'t real, I will be so sad.',
   text:'VIEW',
   url:'https://vimeo.com/145183740'
 }

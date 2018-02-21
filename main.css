@@ -1,4 +1,3 @@
-
 #content links:hover {
     color: #fdf035;
     cursor: pointer;
@@ -8,17 +7,12 @@
 /*HEADER NAME*/
 
 .banner {
-    background-color: rgba(222,222,222,0.6);
-    width: 100vw;
+    background-color: rgba(222, 222, 222, 0.6);
+    cursor: pointer;
     height: 15vh;
     position: fixed;
+    width: 100vw;
     z-index: 1000;
-}
-
-@media  (max-width: 750px) {
-    .banner  {
-        height: 16vh;
-         }
 }
 
 .header-name {
@@ -32,135 +26,131 @@
     text-align: center;
     text-transform: uppercase;
     top: 0;
-    width: 100%;
+    width: 100vw;
 }
 
-.header-title{
-        font-family: "SF New Republic", sans-serif;
-        font-size: 15px;
-        left: 0;
-        letter-spacing: 0.2em;
-        line-height: 100px;
-        margin: 0;
-        position: fixed;
-        text-align: center;
-        text-transform: uppercase;
-        top: 25px;
-        width: 100%;
-        z-index: 1000;
-
+.header-title {
+    font-family: "SF New Republic", sans-serif;
+    font-size: 15px;
+    left: 0;
+    letter-spacing: 0.2em;
+    line-height: 100px;
+    margin: 0;
+    position: fixed;
+    text-align: center;
+    text-transform: uppercase;
+    top: 25px;
+    width: 100vw;
+    z-index: 1000;
 }
-
-
-
 
 
 /*TERMINAL BACKGROUND COLOR*/
 
-
-
-
 .work-color {
-    height:100vh;
-
-}
-
-@media  (max-width: 750px) {
-    .work-color  {
-        height: 150vh;
-        position: relative;
-        top: 5px;
-         }
-
+    height: 100vh;
 }
 
 
 /*TERMINAL*/
 
-
 .code {
-    background: #ccc;
-    border-radius: 5px;
-    color: #fafafa;
-    font-family: 'Monaco', 'Courier New';
-    font-size: 13px;
-    height: 460px;
+    background-color: #ccc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    bottom: 14px;
+    height: 14px;
     margin: 0 auto;
-    margin-bottom: 160px;
-    padding-top: 15px;
     position: relative;
-    text-align: left;
-    top: 180px;
-    width: 671px;
+    width: 50vw;
 }
 
-@media  (max-width: 400px) {
-    .code  {
-        width: 375px;
-        margin: 2px -1px -1px 3px;
-        height: 607px;
-         }
+@media (max-width: 1024px) {
+    .code {
+        width: 75vw;
+    }
+}
 
+@media (max-width: 425px) {
+    .code {
+        width: 95vw;
+    }
+}
+
+@media (max-width: 375px) {
+    .code {
+        width: 95vw;
+    }
+}
+
+@media (max-width: 320px) {
+    .code {
+        width: 95vw;
+    }
+}
+
+.terminal-info {
+    padding-left: 15px;
+}
+
+@media (max-width: 425px) {
+    .terminal-info {
+        font-size: .75rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .terminal-info {
+        font-size: .7rem;
+    }
 }
 
 .terminal {
     background: #383737;
-    height: 565px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #fafafa;
+    font-family: 'Monaco', 'Courier New';
+    font-size: 13px;
+    height: 65vh;
     margin: 0 auto;
-    padding: 22px 0px 0px 32px;
-    width: 670px;
+    position: relative;
+    top: 180px;
+    width: 50vw;
 }
 
-
-@media  (max-width: 400px) {
-    .terminal  {
-            width: 373px;
-            margin: 2px 2px 2px 1px;
-            height: 580px;
-            padding: 21px 0px 0px 19px;
-     }
+@media (max-width: 1024px) {
+    .terminal {
+        height: 70vh;
+        width: 75vw;
+    }
 }
 
+@media (max-width: 425px) {
+    .terminal {
+        width: 95vw;
+        height: 71vh;
+    }
+}
+
+@media (max-width: 320px) {
+    .terminal {
+        width: 95vw;
+        height: 71vh;
+    }
+}
 
 .terminal-answers {
     color: #ccc;
 }
 
 .terminal-link {
-    color:#fdf035;
+    color: #fdf035;
     text-decoration: none;
 }
 
 
-
-
-
-
-/* makes the slidehso a slideshow*/
-
-.text-pocket {
-    font-size: 18px;
-    font-family: 'Avenir', sans-serif;
-    margin-top: 50px;
-    text-align: center;
-}
-
-.text {
-    color: black;
-    font-size: 1.3rem;
-    bottom: 20px;
-    width: 77%;
-    margin: 0 auto;
-    margin-left: 138px;
-    margin-top: 50px;
-    font-family: 'Avenir', sans-serif;
-}
-
-@media  (max-width: 400px) {
-.text  {
-    font-size: 1rem;
-    }
-}
+/*SLIDESHOW*/
 
 .mySlides {
     display: none;
@@ -168,17 +158,6 @@
 
 .active-slide {
     display: block;
-}
-
-
-/* Number text (1/3 etc) */
-
-.numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
 }
 
 
@@ -193,6 +172,12 @@
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
+}
+
+.dots {
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
 }
 
 .active, .dot:hover {
@@ -228,295 +213,184 @@
 }
 
 
-
-
-
-
-/*twist*/
-
-
-/*NEW HOME PAGE BOTTOM BARS*/
-
-
-span.mgd-grow:hover, span.design-grow:hover, span.dev-grow:hover {
-    font-size: 4rem;
-     transition: font-size 0.5s;
-}
-
-span.mgd-grow, span.design-grow, span.dev-grow {
-    transition: font-size 0.5s;
-    font-size: 2rem;
-}
-
-
-h1#motion-btn {
-    font-family: "SF New Republic", sans-serif;
-    cursor: pointer;
-    color:#383737;
-    text-align: center;
-    position: relative;
-    margin-bottom: 40px;
-}
-
-
-
-h1#design-btn {
-    font-family: "SF New Republic", sans-serif;
-    cursor: pointer;
-    color:#383737;
-    transition: font-size 0.5s;
-    text-align: center;
-    color: #444;
-    font-size: 2rem;
-    position: relative;
-    margin-bottom: 40px;
-}
-
-
-
-
-
-
-h1#dev-btn {
-    font-family: "SF New Republic", sans-serif;
-    cursor: pointer;
-    color:#383737;
-    text-align: center;
-    font-size: 2rem;
-    position: relative;
-    top: 30px;
-}
-
-
-
-
 /*MOTION*/
 
-.clock-video {
+h1#motion-btn {
+    color: #383737;
     cursor: pointer;
+    font-family: "SF New Republic", sans-serif;
+    position: relative;
+    text-align: center;
+}
+
+@media (max-width:375px) {
+    h1#motion-btn {
+        font-size: 1.5rem;
+    }
 }
 
 video#bgvid {
-    width: 350px;
+    width: 345px;
 }
-
-
-
-
- .container-img {
-    width: 30%;
-}
-
-img#vh {
-    position: relative;
-    bottom: 34px;
-}
-
-
 
 .mgd-container-1, .mgd-container-2, .mgd-container-3, .mgd-container-4 {
-  position: relative;
-  width: 50%;
-  display: inline;
-}
-
-
-
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-
-
-
-
-
-/*design overlay*/
-
-.design-container-1, .design-container-2, .design-container-3, .design-container-4, .design-container-5 {
-  position: relative;
-  width: 50%;
-  display: inline;
-  padding: 2px 5px 2px 5px;
-}
-
-
-
-
-
-
-
-
-
-quote{
-    font-style: italic;
-        font-weight: 600;
-}
-
-
-
-
-/*DEV OVERLAY*/
-
-
-
-.dev-container-1, .dev-container-2 {
-  position: relative;
-  width: 50%;
-  display: inline;
-}
-
-
-
-
-/*new*/
-
-.text {
-   color: black;
-   position: absolute;
-   bottom: 30%;
-   width: 100%;
-   text-align: center;
-   -ms-transform: translate(-50%, -50%);
-   margin: 0 auto;
-}
-
-
-
-
-
-
-
-#soh {
-    font-size: 2.5rem;
-    font-family: "SF New Republic", sans-serif;
-    margin: auto;
-    line-height: 35px;
-}
-
-
-/*////MODAL*/
-
-/* Z-index of #mask must lower than #boxes .window */
-#mask {
-    position:absolute;
-    top: 0px;
-    left: 0px;
-    z-index:9000;
-    background-color:#000;
-}
-
-#boxes .window {
-    position:fixed;
-    width:440px;
-    height:200px;
-    z-index:9999;
-}
-
-
-
-
-/*modal img*/
-
-.slideshow-container {
-    width: auto;
-    height: auto;
-    top: 50px;
+    display: inline;
     position: relative;
+    width: 50%;
 }
 
-
-
-.container-img-modal {
-    position: relative;
-right: 230px;
-bottom: 350px;
-width: 60vw;
-}
-
-img.container-img-modal-water {
-    position: relative;
-right: 70px;
-bottom: 350px;
-width: 35vw;
-}
-
-img.container-img{
-    width: 25%;
-}
-
-@media  (max-width: 400px) {
-    img.container-img  {
-        width: 90%;
-     }
-}
-
-@media  (max-width: 800px) {
-    img.container-img  {
-        width: 50%;
-     }
-}
-
-
-.dots {
-    text-align: center;
-position: relative;
-bottom: 330px;
-margin: 0 auto;
-}
-
-.atta-title {
-    position: relative;
-    bottom: 330px;
-    color: white;
-    font-family: Avenir;
-    width: 100vw;
-    right: 290px;
-}
-
-p.modal-description{
-     text-align: center;
-    position: relative;
-    bottom: 315px;
-    margin: 0 auto;
-    width: 80vw;
-    right: 390px;
+main {
     font-family: avenir;
+    font-size: .8rem;
 }
+
+div#content h1, div#content links {
+    font-family: 'SF new republic';
+}
+
+quote {
+    font-style: italic;
+    font-weight: 600;
+}
+
+
+/*DEV & DESIGN*/
+
+h1#design-btn {
+    color: #383737;
+    color: #444;
+    cursor: pointer;
+    font-family: "SF New Republic", sans-serif;
+    font-size: 2rem;
+    margin-bottom: 40px;
+    position: relative;
+    text-align: center;
+    transition: font-size 0.5s;
+}
+
+@media (max-width:375px) {
+    h1#design-btn {
+        font-size: 1.5rem;
+    }
+}
+
+
+/* UI MODAL INFO */
 
 .modal-description {
-    color: white;
+    color: black;
     z-index: 1000;
 }
 
-p.modal-description-1{
-    position: relative;
-bottom: 330px;
-color: white;
-text-align: center;
-
-}
-
-
-.snack-link, .atta-link {
-    color: #fdf035;
-    text-decoration: none;
+h1.modal-description-1 {
+    font-family: 'SF new republic';
 }
 
 img.container-img-modal {
+    width: 50vw;
+}
+
+@media (max-width:1024px) {
+    img.container-img-modal {
+        width: 65vw;
+    }
+}
+
+@media (max-width:768px) {
+    img.container-img-modal {
+        width: 85vw;
+    }
+}
+
+@media (max-width:425px) {
+    img.container-img-modal {
+        width: 100vw;
+    }
+}
+
+.design-container {
+    cursor: pointer;
+}
+
+.ui-slides {
+    padding: 0px 50px 0px 0px;
+}
+
+.ui-container {
     position: relative;
-    right: 250px;
-    bottom: 350px;
-    width: 60vw;
-    margin-top: 15px;
+    text-align: center;
+    top: 150px;
+}
+
+.ui-description {
+    font-family: avenir;
+}
+
+ul.slideshow-container {
+    margin: 0 auto;
+}
+
+div#overlay {
+    display: inline-flex;
+}
+
+#overlay {
+    background-color: white;
+    bottom: 0;
+    cursor: pointer;
+    display: none;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 2;
 }
 
 
-img.container-img-modal-water {
-    position: relative;
-    right: 20px;
-    bottom: 350px;
-    width: 30vw;
+/* ---- grid ---- */
+
+.grid {
+    max-width: 1450px;
 }
+
+
+/* clearfix */
+
+.grid:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+
+/* ---- grid-item ---- */
+
+.grid-item {
+    border-radius: 5px;
+    float: left;
+    height: 200px;
+    width: 355px;
+}
+
+
+/* .grid-item--width2 { width: 320px; } */
+
+.grid-item--width3 {
+    width: 480px;
+}
+
+
+/* .grid-item--width4 { width: 640px; } */
+
+.grid-item--height2 {
+    height: 25vh;
+}
+
+.grid-item--height3 {
+    height: 25vh;
+}
+
+
+/* .grid-item--height4 { height: 360px; } */
