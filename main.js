@@ -1,5 +1,3 @@
-
-
 // slide2
 
 (function() {
@@ -8,7 +6,7 @@
 
     function init() {
 
-        parents = document.getElementsByClassName('ui-container');
+        parents = document.getElementsByClassName('.slideshow-container');
 
         for (j = 0; j < parents.length; j++) {
             var slides = parents[j].getElementsByClassName("mySlides");
@@ -75,8 +73,6 @@
 
 
 
-
-
 $(document).ready(function() {
     $("#Page1").hide();
     $(".design-container").hide();
@@ -90,7 +86,6 @@ $(document).ready(function() {
         });
     });
 
-
     $(document).ready(function() {
         $("#design-btn").click(function() {
             $(".design-container").toggle();
@@ -103,20 +98,49 @@ $(document).ready(function() {
 
 
 
-    function on() {
-        document.getElementById("overlay").style.display = "block";
-    }
-
-    function off() {
-        document.getElementById("overlay").style.display = "none";
-    }
 
 
+function on() {
+    document.getElementById("overlay").style.display = "block";
+
+}
+
+function off() {
+    document.getElementById("overlay").style.display = "none";
+}
 
 
 
+$(document).ready(function() {
+    $('#ui').click(function() {
+        $('.ui-container, #overlay').show();
+        $('.ap-container, .sa-container, .atta-container').hide();
 
-    $('.grid').masonry({
-      itemSelector: '.grid-item',
-      columnWidth: 160
     });
+
+    $('#ap').click(function() {
+        $('.ap-container, #overlay').show();
+        $('.ui-container, .sa-container, .atta-container').hide();
+    });
+
+    $('#sa').click(function() {
+        $('.sa-container, #overlay').show();
+        $('.ui-container, .ap-container, .atta-container').hide();
+    });
+
+    $('#atta').click(function() {
+        $('.atta-container, #overlay').show();
+        $('.ui-container, .ap-container, .sa-container').hide();
+    });
+});
+
+
+
+
+
+
+
+$('.grid').masonry({
+    itemSelector: '.grid-item',
+    columnWidth: 160
+});
