@@ -107,12 +107,19 @@ function on() {
 
 function off() {
     document.getElementById("overlay").style.display = "none";
+    hideOverlay()
 }
 
 function initSlide(container) {
     $(container).find('.mySlides:first').addClass('active-slide');
 }
 
+
+function hideOverlay() {
+    document.querySelectorAll('.mySlides').forEach(function(item) {
+        $(item).removeClass('active-slide');
+    })
+}
 
 
 $(document).ready(function() {
@@ -137,12 +144,6 @@ $(document).ready(function() {
         $('.atta-container, #overlay').show();
         $('.ui-container, .ap-container, .sa-container').hide();
     });
-
-    // $(banner).click(function() {
-    //     querySelectorAll('.mySlides').forEach(item, function(){
-    //         $(item).removeClass('.active-slide');
-    //     })
-    // })
 });
 
 
