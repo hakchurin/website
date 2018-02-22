@@ -1,3 +1,9 @@
+body {
+    margin: 0 auto;
+}
+
+
+
 #content links:hover {
     color: #fdf035;
     cursor: pointer;
@@ -11,6 +17,7 @@
     cursor: pointer;
     height: 15vh;
     position: fixed;
+    top: 0;
     width: 100vw;
     z-index: 1000;
 }
@@ -34,12 +41,11 @@
     font-size: 15px;
     left: 0;
     letter-spacing: 0.2em;
-    line-height: 100px;
     margin: 0;
     position: fixed;
     text-align: center;
     text-transform: uppercase;
-    top: 25px;
+    top: 70px;
     width: 100vw;
     z-index: 1000;
 }
@@ -76,32 +82,11 @@
     width: 50vw;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
     .code {
         width: 75vw;
     }
 }
-
-
-
-@media (max-width: 425px) {
-    .code {
-        width: 95vw;
-    }
-}
-
-@media (max-width: 375px) {
-    .code {
-        width: 95vw;
-    }
-}
-
-@media (max-width: 320px) {
-    .code {
-        width: 95vw;
-    }
-}
-
 
 
 .terminal-info {
@@ -140,39 +125,19 @@ font-size: 1.5rem;
     color: #fafafa;
     font-family: 'Monaco', 'Courier New';
     font-size: 13px;
-    height: 65vh;
     margin: 0 auto;
+    padding-bottom: 1rem;
     position: relative;
     top: 180px;
     width: 50vw;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 768px) {
     .terminal {
-        height: 70vh;
-    }
-}
-
-@media (max-width: 1024px) {
-    .terminal {
-        height: 70vh;
         width: 75vw;
     }
 }
 
-@media (max-width: 425px) {
-    .terminal {
-        width: 95vw;
-        height: 71vh;
-    }
-}
-
-@media (max-width: 320px) {
-    .terminal {
-        width: 95vw;
-        height: 71vh;
-    }
-}
 
 .terminal-answers {
     color: #ccc;
@@ -181,6 +146,24 @@ font-size: 1.5rem;
 .terminal-link {
     color: #fdf035;
     text-decoration: none;
+}
+
+
+/*PAGE*/
+
+.page-container {
+    display: flex;
+    justify-content: center;
+}
+.page {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.mgd-container video {
+    width: 22.2rem;
 }
 
 
@@ -271,20 +254,10 @@ h1#motion-btn {
     }
 }
 
-video#bgvid {
-    width: 25vw;
-}
-
-@media (max-width:375px) {
-    video#bgvid {
-        width: 25vw;
-    }
-}
-
 .mgd-container-1, .mgd-container-2, .mgd-container-3, .mgd-container-4 {
     display: inline;
     position: relative;
-    width: 25vw;
+    /* width: 25vw; */
 }
 
 main {
@@ -456,30 +429,9 @@ div#overlay {
 
 /* ---- grid ---- */
 
+
 .grid {
-  max-width: 1450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-
-/* clearfix */
-.grid:after {
-  content: '';
-  display: block;
-  clear: both;
-}
-
-/* ---- grid-item ---- */
-
-.grid-item {
-  width: 355px;
-  height: 200px;
-  float: left;
-  border-radius: 5px;
-}
-
-/* .grid-item--width2 { width: 320px; } */
-.grid-item--width3 { width: 480px; }
-/* .grid-item--width4 { width: 640px; } */
-
-.grid-item--height2 { height: 25vh; }
-.grid-item--height3 { height: 25vh; }
-/* .grid-item--height4 { height: 360px; } */
