@@ -109,13 +109,17 @@ function off() {
     document.getElementById("overlay").style.display = "none";
 }
 
+function initSlide(container) {
+    $(container).find('.mySlides:first').addClass('active-slide');
+}
+
 
 
 $(document).ready(function() {
     $('#ui').click(function() {
         $('.ui-container, #overlay').show();
         $('.ap-container, .sa-container, .atta-container').hide();
-
+        initSlide('.ui-container')
     });
 
     $('#ap').click(function() {
@@ -126,12 +130,19 @@ $(document).ready(function() {
     $('#sa').click(function() {
         $('.sa-container, #overlay').show();
         $('.ui-container, .ap-container, .atta-container').hide();
+        initSlide('.sa-container')
     });
 
     $('#atta').click(function() {
         $('.atta-container, #overlay').show();
         $('.ui-container, .ap-container, .sa-container').hide();
     });
+
+    // $(banner).click(function() {
+    //     querySelectorAll('.mySlides').forEach(item, function(){
+    //         $(item).removeClass('.active-slide');
+    //     })
+    // })
 });
 
 
