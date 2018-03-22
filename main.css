@@ -404,8 +404,24 @@ ul.sa-slides {
     padding:0;
 }
 
+/* ATTA description  */
+
+.atta-container {
+    font-family: avenir;
+    position: relative;
+    text-align: center;
+    top: 130px;
+}
+
+a.atta-link {
+    color: #fdf035;
+    text-decoration: none;
+    text-transform: uppercase;
+}
 
 
+
+/* end */
 
 div#overlay {
     display: inline-flex;
