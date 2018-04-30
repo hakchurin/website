@@ -430,7 +430,7 @@ div#overlay {
 #overlay {
     background-color: white;
     bottom: 0;
-    cursor: pointer;
+    /* cursor: pointer; */
     display: none;
     height: 100%;
     left: 0;
