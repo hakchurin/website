@@ -72,26 +72,26 @@
 
 
 
-
-$(document).ready(function() {
-    $("#Page1").hide();
-    $(".design-container").hide();
-    $("#overlay").hide();
-
-
-
-    $(document).ready(function() {
-        $("#motion-btn").click(function() {
-            $("#Page1").toggle();
-        });
-    });
-
-    $(document).ready(function() {
-        $("#design-btn").click(function() {
-            $(".design-container").toggle();
-        });
-    });
-});
+// 
+// $(document).ready(function() {
+//     $("#Page1").hide();
+//     $(".design-container").hide();
+//     $("#overlay").hide();
+//
+//
+//
+//     $(document).ready(function() {
+//         $("#motion-btn").click(function() {
+//             $("#Page1").toggle();
+//         });
+//     });
+//
+//     $(document).ready(function() {
+//         $("#design-btn").click(function() {
+//             $(".design-container").toggle();
+//         });
+//     });
+// });
 
 
 
