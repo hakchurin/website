@@ -22,6 +22,31 @@ body {
     z-index: 1000;
 }
 
+@media (max-width: 1024px) {
+    .banner{
+        height: 7vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner{
+        height: 7vh;
+    }
+}
+
+
+@media (max-width: 425px) {
+    .banner{
+        height: 7vh;
+    }
+}
+
+@media (max-width: 375px) {
+    .banner{
+        height: 7vh;
+    }
+}
+
 .header-name {
     font-family: "SF New Republic", sans-serif;
     font-size: 15px;
@@ -59,13 +84,32 @@ body {
 
 @media (max-width: 2560px) {
     .work-color{
-        height: 85vh;
+        height: 60vh;
+    }
+}
+@media (max-width: 1024px) {
+    .work-color{
+        height: 47vh;
     }
 }
 
-@media (max-width: 2560px) {
+@media (max-width: 768px) {
     .work-color{
-    height: 90vh;
+        height: 45vh;
+    }
+}
+
+
+@media (max-width: 425px) {
+    .work-color{
+        height: 45vh;
+    }
+}
+
+
+@media (max-width: 375px) {
+    .work-color{
+    height: 45vh;
     }
 }
 
@@ -433,12 +477,21 @@ a.atta-link {
     text-transform: uppercase;
 }
 
+@media (max-width: 768px) {
+    ul.atta-slides {
+        padding: 0;
+    }
+}
 
+@media (max-width:425px) {
+    ul.atta-slides {
+        padding: 0;
+    }
+}
 
 @media (max-width:375px) {
-
-    .atta-slides {
-        padding: 0px;
+    ul.atta-slides {
+        padding: 0;
     }
 }
 
