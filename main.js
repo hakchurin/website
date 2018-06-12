@@ -95,8 +95,14 @@ function hideOverlay() {
 }
 
 
+
+
 $(document).ready(function() {
     $('#overlay').hide();
+
+
+
+
     $('#ui').click(function() {
         $('.ui-container, #overlay').show();
         $('.ap-container, .sa-container, .atta-container').hide();

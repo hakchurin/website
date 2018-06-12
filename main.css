@@ -22,28 +22,34 @@ body {
     z-index: 1000;
 }
 
+@media (max-width: 1440px) {
+    .banner{
+        height: 14vh;
+    }
+}
+
 @media (max-width: 1024px) {
     .banner{
-        height: 7vh;
+        height: 14vh;
     }
 }
 
 @media (max-width: 768px) {
     .banner{
-        height: 7vh;
+        height: 14vh;
     }
 }
 
 
 @media (max-width: 425px) {
     .banner{
-        height: 7vh;
+        height: 14vh;
     }
 }
 
 @media (max-width: 375px) {
     .banner{
-        height: 7vh;
+        height: 14vh;
     }
 }
 
@@ -76,6 +82,7 @@ body {
 }
 
 
+
 /*TERMINAL BACKGROUND COLOR*/
 
 .work-color {
@@ -87,22 +94,29 @@ body {
         height: 60vh;
     }
 }
+
+@media (max-width: 1440px) {
+    .work-color{
+        height: 85vh;
+    }
+}
+
 @media (max-width: 1024px) {
     .work-color{
-        height: 47vh;
+        height: 85vh;
     }
 }
 
 @media (max-width: 768px) {
     .work-color{
-        height: 45vh;
+        height: 85vh;
     }
 }
 
 
 @media (max-width: 425px) {
     .work-color{
-        height: 45vh;
+        height: 85vh;
     }
 }
 
