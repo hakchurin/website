@@ -40,15 +40,6 @@ window.addEventListener('hashchange', function() {
 
 
 
-
-
-// <a href={object.key}>{object.text}</a>
-
-
-// <button onclick="window.location.href='/page2'">Continue</button>
-
-
-
 function renderContent(whatContent) {
   document.querySelector('#content h1').textContent = data[whatContent].title;
   document.querySelector('#content main').textContent = data[whatContent].body;
