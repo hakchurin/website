@@ -1,11 +1,48 @@
+
+
+
+
+
+
+
 body {
     margin: 0 auto;
+    font-family: avenir;
 }
 
-#content links:hover {
-    color: #fdf035;
-    cursor: pointer;
+
+
+
+
+/* NAV */
+
+
+.col-lg-12.nav-title{
+    text-align: center;
+    position: relative;
+    top: 20px;
 }
+
+
+
+.row-nav {
+    background-color: rgba(222, 222, 222, 0.6);
+    height: 80px;
+}
+
+
+/* ABOUT ME  */
+
+.col-sm-4.about-me {
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+    width: 50%;
+}
+
+
+
+
 
 /*HEADER NAME*/
 
@@ -54,7 +91,7 @@ body {
     font-size: 15px;
     left: 0;
     letter-spacing: 0.2em;
-    line-height: 70px;
+    line-height: 95px;
     margin: 0;
     position: fixed;
     text-align: center;
@@ -72,7 +109,7 @@ body {
     position: fixed;
     text-align: center;
     text-transform: uppercase;
-    top: 55px;
+    top: 150px;
     width: 100vw;
     z-index: 1000;
 }
@@ -193,322 +230,4 @@ body {
 .terminal-link {
     color: #fdf035;
     text-decoration: none;
-}
-
-/*PAGE*/
-
-/* .page-container {
-    display: flex;
-    justify-content: center;
-}
-
-.page {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.mgd-container video {
-    width: 22.2rem;
-} */
-
-/*SLIDESHOW*/
-
-/* .mySlides {
-    display: none;
-}
-
-.active-slide {
-    display: block;
-} */
-
-/* The dots/bullets/indicators */
-
-/* .dot {
-    cursor: pointer;
-    height: 23px;
-    width: 23px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-
-.dots {
-    margin: 0 auto;
-    position: relative;
-    text-align: center;
-}
-
-.active, .dot:hover {
-    background-color: #717171;
-} */
-
-/* Fading animation */
-
-/* .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-    from {
-        opacity: .4
-    }
-    to {
-        opacity: 1
-    }
-}
-
-@keyframes fade {
-    from {
-        opacity: .4
-    }
-    to {
-        opacity: 1
-    }
-} */
-
-/*MOTION*/
-
-/* @media (max-width:1440px) {
-    .div-1 {
-        margin-top: 75px;
-    }
-} */
-
-/* h1#motion-btn {
-    color: #383737;
-    cursor: pointer;
-    font-family: "SF New Republic", sans-serif;
-    position: relative;
-    text-align: center;
-}
-
-@media (max-width:375px) {
-    h1#motion-btn {
-        font-size: 1.5rem;
-    }
-}
-
-.mgd-container-1, .mgd-container-2, .mgd-container-3, .mgd-container-4 {
-    display: inline;
-    position: relative;
-    /* width: 25vw; */
-/* }
-
-main {
-    font-family: avenir;
-    font-size: .8rem;
-}
-
-div#content h1, div#content links {
-    font-family: 'SF new republic';
-}
-
-quote {
-    font-style: italic;
-    font-weight: 600;
-}  */
-
-/*DEV & DESIGN*/
-
-h1#design-btn {
-    color: #383737;
-    color: #444;
-    cursor: pointer;
-    font-family: "SF New Republic", sans-serif;
-    font-size: 2rem;
-    margin-bottom: 40px;
-    position: relative;
-    text-align: center;
-    transition: font-size 0.5s;
-}
-
-@media (max-width:375px) {
-    h1#design-btn {
-        font-size: 1.5rem;
-    }
-}
-
-/* UI MODAL INFO */
-
-.modal-description {
-    color: black;
-    z-index: 1000;
-}
-
-@media (max-width:375px) {
-    .modal-description {
-        font-size: .7rem;
-    }
-}
-
-/* h1.modal-description-1 {
-    font-family: 'SF new republic';
-} */
-
-img.container-img-modal {
-    width: 50vw;
-}
-
-@media (max-width:1024px) {
-    img.container-img-modal {
-        width: 65vw;
-    }
-}
-
-@media (max-width:768px) {
-    img.container-img-modal {
-        width: 85vw;
-    }
-}
-
-@media (max-width:425px) {
-    img.container-img-modal {
-        width: 100vw;
-    }
-}
-
-.design-container {
-    cursor: pointer;
-}
-
-.ui-slides {
-    padding: 0px 50px 0px 0px;
-}
-
-.ui-container {
-    position: relative;
-    text-align: center;
-    top: 150px;
-}
-
-.ui-description {
-    font-family: avenir;
-}
-
-ul.slideshow-container {
-    margin: 0 auto;
-}
-
-/* AP DESCRIPTOPN */
-/*
-ul.ap-slides {
-    margin: 0 auto;
-    padding: 0;
-}
-
-.ap-container {
-    font-family: avenir;
-    position: relative;
-    text-align: center;
-    top: 150px;
-}
-
-.ap-link {
-    color: #fdf035;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-/* sa description */
-
-/* .sa-container {
-    position: relative;
-    text-align: center;
-    top: 130px;
-}
-
-.sa-description {
-    font-family: avenir;
-}
-
-a.snack-link {
-    color: #fdf035;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-ul.sa-slides {
-    padding: 0;
-}  */
-
-/* ATTA description  */
-
-/* .atta-container {
-    font-family: avenir;
-    position: relative;
-    text-align: center;
-    top: 130px;
-}
-
-a.atta-link {
-    color: #fdf035;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-@media (max-width: 768px) {
-    ul.atta-slides {
-        padding: 0;
-    }
-}
-
-@media (max-width:425px) {
-    ul.atta-slides {
-        padding: 0;
-    }
-}
-
-@media (max-width:375px) {
-    ul.atta-slides {
-        padding: 0;
-    }
-} */
-
-/* end */
-
-div#overlay {
-    display: inline-flex;
-}
-
-#overlay {
-    background-color: white;
-    bottom: 0;
-    /* cursor: pointer; */
-    display: none;
-    height: 100%;
-    left: 0;
-    position: fixed;
-    right: 0;
-    top: 0;
-    width: 100%;
-    z-index: 2;
-}
-
-/* ---- grid ---- */
-
-.grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-/* start */
-
-.aboutme {
-    font-family: avenir;
-    width: 50%;
-    margin: 0 auto;
-    position: relative;
-    top: 90px;
-    text-align: center;
-}
-
-.aboutme-p {
-    text-align: justify;
 }
