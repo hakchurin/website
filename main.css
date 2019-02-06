@@ -28,8 +28,25 @@ body {
 .row-nav {
     background-color: rgba(222, 222, 222, 0.6);
     height: 80px;
+    /* text-align: center;
+    margin-left: 0 auto; */
 }
 
+
+
+
+.col-lg-6.nav-title.align-baseline.text-center {
+    position: relative;
+top: 30px;
+}
+
+
+
+@media (max-width: 1201px) {
+    .col-lg-6.nav-title.align-baseline.text-center {
+        top:0;
+    }
+}
 
 /* ABOUT ME  */
 
