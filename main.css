@@ -33,11 +33,13 @@ body {
 
 /* ABOUT ME  */
 
-.col-sm-4.about-me {
+.col-sm-8.about-me {
     margin: 0 auto;
     position: relative;
     top: 50px;
     width: 50%;
+    font-family: avenir;
+    float: none;
 }
 
 
@@ -177,17 +179,18 @@ body {
 
 .terminal-info {
     padding-left: 15px;
+    /* font-size: 1.5rem; */
 }
 
 @media (max-width: 2560px) {
     .terminal-info {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 }
 
 @media (max-width: 1444px) {
     .terminal-info {
-        font-size: .85rem;
+        font-size: 1.2rem;
     }
 }
 
@@ -215,6 +218,7 @@ body {
     position: relative;
     top: 100px;
     width: 50vw;
+    margin-bottom: 100px;
 }
 
 @media (max-width: 768px) {
