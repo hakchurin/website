@@ -54,9 +54,9 @@ top: 30px;
     margin: 0 auto;
     position: relative;
     top: 50px;
-    width: 50%;
+    /* width: 50%; */
     font-family: avenir;
-    float: none;
+    float: initial;
 }
 
 
@@ -333,75 +333,6 @@ h3 a.link {
 }
 
 
-/* .details h3 {
-    color: black;
-    border: 2px solid black;
-    width: 300px;
-    height: 50px;
-    position: relative;
-    left: 120px;
-    top: 150px;
-} */
-
-
- /* ipad pro */
-/* @media (max-width: 1024px) {
-    .details h3 {
-        color: black;
-    border: 2px solid black;
-    width: 300px;
-    height: 50px;
-    position: relative;
-    left: 60px;
-    top: 80px;
-    }
-} */
-
-
-/* ipad */
-
-/* @media (max-width: 768px) {
-    .details h3 {
-        color: black;
-    border: 2px solid black;
-    width: 300px;
-    height: 50px;
-    position: relative;
-    left: 190px;
-    top: 230px;
-    }
-} */
-
-
-/* iphone 6/7/8 */
-/*
-@media (max-width: 414px) {
-    .details h3 {
-        color: black;
-    border: 2px solid black;
-    width: 280px;
-    height: 50px;
-    position: relative;
-    left: 27px;
-    top: 20px;
-    }
-} */
-
-
-/* iphone x */
-
-/* @media (max-width: 375px) {
-    .details h3 {
-        color: black;
-    border: 2px solid black;
-    width: 280px;
-    height: 50px;
-    position: relative;
-    left: 4px;
-    top: 20px;
-    }
-} */
-
 
 
 
@@ -413,3 +344,53 @@ span.view-span {
 .cover a {
     color: black;
 }
+
+
+
+
+.col-lg-6.nav-title.align-baseline.text-center a {
+    color: black;
+    text-decoration: none;
+}
+
+.col-lg-6.nav-title.align-baseline.text-center a:hover {
+    color: yellow;
+}
+
+
+
+.container-work {
+    margin: 0 auto;
+    position: absolute;
+    left: 100px;
+    top: 150px;
+}
+
+@media (max-width: 1024px) {
+    .container-work {
+        left: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* work nctm */
+
+
+.row-img {
+    text-align: center;
+}
+
+
+
+/* .col-lg-6.nctm-p-1 {
+    margin: 0 auto;
+    position: relative;
+    left: 300px;
+} */
