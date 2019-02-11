@@ -48,13 +48,25 @@ top: 30px;
     }
 }
 
+
+
+.nav-home, .nav-work, .nav-logo {
+    position: absolute;
+    top: 30px;
+    color: black;
+}
+
+.nav-home:hover, .nav-work:hover, .nav-logo:hover {
+text-decoration: none;
+    color: yellow;
+}
+
 /* ABOUT ME  */
 
 .col-sm-8.about-me {
     margin: 0 auto;
     position: relative;
     top: 50px;
-    /* width: 50%; */
     font-family: avenir;
     float: initial;
 }
@@ -416,8 +428,17 @@ margin-left: 0px;
 }
 
 
+
 @media (max-width: 414px) {
     .col-md-6  {
         padding: 0px;
+    }
+}
+
+
+
+@media (max-width: 1024px){
+img.biberk {
+    width: 100%;
     }
 }
